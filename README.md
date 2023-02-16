@@ -15,8 +15,7 @@ a few things around.
 **NOTE: DO NOT TOUCH ANYTHING IN THE NVIM DIRECTORY OUTSIDE THE USER DIRECTORY**
 
 For NeoVim I have used AstroNvim which is where the folder leads to, it doesnt let me copy over the font and some plugins for some reasons.
-For example, a plugin such has Telescope works perfectly fine however Overseer is not being copied over. I will try to address this issue
-in the future
+For example, a plugin such has Telescope works perfectly fine however O
 
 ### Installing
 
