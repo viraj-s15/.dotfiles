@@ -1,0 +1,1 @@
+return { path = "/home/veer", documents = {["views"]={[1]={["module"]="core.emptyview",["scroll"]={["to"]={["y"]=0,["x"]=0},["y"]=0,["x"]=0},["type"]="view",["active"]=true}},["active_view"]=1,["type"]="leaf"}, directories = {} }
