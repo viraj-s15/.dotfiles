@@ -10,6 +10,7 @@ Contains all the config files for important application on Arch Linux.
 ## Getting Started <a name = "getting_started"></a>
 
 You will mainly need to Arch Linux along with Kde and easyeffects for the config files to work as is. If not, you may haver to change
+
 a few things around.
 
 **NOTE: DO NOT TOUCH ANYTHING IN THE NVIM DIRECTORY OUTSIDE THE USER DIRECTORY**
