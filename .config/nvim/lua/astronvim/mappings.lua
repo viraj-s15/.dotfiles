@@ -4,6 +4,10 @@ local ui = require "astronvim.utils.ui"
 
 local maps = { i = {}, n = {}, v = {}, t = {} }
 
+
+
+
+
 local sections = {
   f = { name = "󰍉 Find" },
   p = { name = "󰏖 Packages" },
