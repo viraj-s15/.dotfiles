@@ -10,6 +10,7 @@ for _, source in ipairs {
 end
 
 vim.api.nvim_set_option("clipboard","unnamed")
+vim.g.material_style = "darker"
 
 if astronvim.default_colorscheme then
   if not pcall(vim.cmd.colorscheme, astronvim.default_colorscheme) then
