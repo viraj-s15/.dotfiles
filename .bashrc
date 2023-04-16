@@ -13,7 +13,7 @@
 [[ $- != *i* ]] && return
 
 export HISTCONTROL=ignoreboth:erasedups
-
+export PATH=$PATH:~/.local/bin
 
 PS1='[\u@\h \W]\$ '
 
@@ -49,17 +49,17 @@ bind 'set completion-ignore-case on'
 
 #systeminfo
 alias probe='sudo -E hw-probe -all -upload'
-
+alias hotspot='sudo create_ap wlan0 wlan0 "new phone who this" 15102003'
 # Replace ls with exa
 alias ls='exa -al --color=always --group-directories-first --icons' # preferred listing
 alias la='exa -a --color=always --group-directories-first --icons'  # all files and dirs
 alias ll='exa -l --color=always --group-directories-first --icons'  # long format
 alias lt='exa -aT --color=always --group-directories-first --icons' # tree listing
 alias l='exa -lah --color=always --group-directories-first --icons' # tree listing
-
+alias 'vim=nvim'
 #pacman unlock
 alias unlock='sudo rm /var/lib/pacman/db.lck'
-
+alias gpgme="sudo rm -R /var/lib/pacman/sync"
 #available free memory
 alias free='free -mt'
 
@@ -245,3 +245,4 @@ fi
 if [ -f /home/veer/.config/synth-shell/better-history.sh ] && [ -n "$( echo $- | grep i )" ]; then
 	source /home/veer/.config/synth-shell/better-history.sh
 fi
+. "$HOME/.cargo/env"

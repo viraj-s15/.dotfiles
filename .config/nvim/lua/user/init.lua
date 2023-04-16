@@ -69,6 +69,7 @@ return {
       },
     },
   },
+  guibg=NONE,
   icons = {
     VimIcon = "",
     ScrollText = "",
@@ -83,7 +84,7 @@ return {
     separators = {
       left = { "", " " }, -- separator for the left side of the statusline
       right = { " ", "" }, -- separator for the right side of the statusline
-      tab = { "", "" },
+--       tab = { "", "" },
     },
     -- add new colors that can be used by heirline
     colors = function(hl)
@@ -123,7 +124,7 @@ return {
           -- add the vim mode component
           status.component.mode {
             -- enable mode text with padding as well as an icon before it
-            mode_text = { icon = { kind = "VimIcon", padding = { right = 1, left = 1 } } },
+--             mode_text = { icon = { kind = "VimIcon", padding = { right = 1, left = 1 } } },
             -- surround the component with a separators
             surround = {
               -- it's a left element, so use the left separator
@@ -278,7 +279,7 @@ return {
 
     high_visibility = {
         lighter = false, -- Enable higher contrast text for lighter style
-        darker = true -- Enable higher contrast text for darker style
+        darker = false-- Enable higher contrast text for darker style
     },
 
     lualine_style = "default", -- Lualine style ( can be 'stealth' or 'default' )
