@@ -4,7 +4,7 @@ local wezterm = require 'wezterm'
 -- This table will hold the configuration.
 local config = {
 -- window_background_image = "/home/veer/Pictures/wp5.jpg",
-font_size = 15.0,
+font_size = 14.0,
 }
 
 -- In newer versions of wezterm, use the config_builder which will
