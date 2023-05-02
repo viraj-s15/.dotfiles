@@ -177,6 +177,11 @@ alias rkeys='sudo pacman-key --refresh-keys'
 alias sr='sudo reboot'
 alias ssn='sudo shutdown now'
 
+alias gitcl="git clone"
+alias gitcm="git commit -m"
+alias gita="git add ."
+alias gitpo="git push origin"
+
 # # ex = EXtractor for all kinds of archives
 # # usage: ex <file>
 ex ()
