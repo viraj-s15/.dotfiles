@@ -74,7 +74,7 @@ alias userlist='cut -d: -f1 /etc/passwd'
 
 #Pacman for software managment
 alias upall='topgrade'
-alias search='sudo pacman -Qs'
+alias search='pacman -Qs'
 alias remove='sudo pacman -R'
 alias install='sudo pacman -S'
 alias linstall='sudo pacman -U '
