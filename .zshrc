@@ -138,6 +138,8 @@ alias c1="cd Documents/'Main C'"
 
 
 
+
+
 # ls
 alias l='ls -lh'
 alias ll='ls -lah'
@@ -196,6 +198,31 @@ alias yayskip='yay -S --mflags --skipinteg'
 
 #grub update
 alias grubup='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+
+#hardware info --short
+alias hw='hwinfo --short'
+
+#GiT  command
+alias gc='git clone '
+alias gp='git pull'
+alias gitcl="git clone"
+alias gitcm="git commit -m"
+alias gita="git add ."
+alias gitpo="git push origin"
+
+#cd/ aliases
+alias home='cd ~'
+alias etc='cd /etc/'
+alias music='cd ~/Music'
+alias vids='cd ~/Videos'
+alias conf='cd ~/.config'
+alias desk='cd ~/Desktop'
+alias pics='cd ~/Pictures'
+alias dldz='cd ~/Downloads'
+alias docs='cd ~/Documents'
+alias sapps='cd /usr/share/applications'
+alias lapps='cd ~/.local/share/applications'
+
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
