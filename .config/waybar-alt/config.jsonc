@@ -1,0 +1,133 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 0,
+  "modules-left": ["clock", "cpu","memory","wlr/workspaces"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": [
+    "tray",
+    "network",
+    "backlight",
+    "pulseaudio",
+    "custom/wallchange",
+    "battery",
+    "custom/power"
+  ],
+
+  "hyprland/window": {
+    "format": "{}"
+  },
+  "wlr/workspaces": {
+    "disable-scroll": true,
+    "all-outputs": true,
+    "on-click": "activate",
+    //"format": "{icon}",
+    "persistent_workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": []
+    }
+  },
+  "custom/caffeine": {
+    "exec": "~/.config/waybar/scripts/caffeine.sh",
+    "return-type": "json",
+    "interval": 3,
+    "format-icons": ["﯈", ""],
+    "format": "{icon}"
+  },
+  "custom/updates": {
+    "exec": "(checkupdates ; paru -Qua) | wc -l",
+    "interval": 7200,
+    "format": " {}"
+  },
+  "custom/language": {
+    "exec": "cat /tmp/kb_layout",
+    "interval": 3,
+    "format": " {}"
+  },
+  "tray": {
+    "icon-size": 13,
+    "spacing": 10
+  },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon} {percent}%",
+    "format-icons": ["", "", ""],
+    "on-scroll-up": "brightnessctl set 1%+",
+    "on-scroll-down": "brightnessctl set 1%-",
+    "min-length": 6
+  },
+  "battery": {
+    "states": {
+      "good": 95,
+      "warning": 30,
+      "critical": 20
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": " {capacity}%",
+    "format-plugged": " {capacity}%",
+    "format-alt": "{time} {icon}",
+    "format-icons": ["", "", "", "", "", "", "", "", "", "", ""]
+  },
+  "clock": {
+    "format": "{: %R   %d/%m}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+  "network": {
+    "format-wifi": "直 {essid}",
+    "format-ethernet": " {essid}",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "睊 Disconnected",
+    "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "ﱝ Muted",
+    "on-click": "/home/amitgold/.config/hypr/scripts/volume_ctl.sh mute",
+    "scroll-step": 1,
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["", "", "墳", ""]
+    }
+  },
+  "custom/power": {
+    "format": "{}",
+    "exec": "echo ; echo  logout",
+    "on-click": "wlogout -b 2 -c 0 -r 0 -L 930 -R 930 -T 300 -B 300 --protocol layer-shell",
+    "interval": 86400, // once every day
+    "tooltip": true
+  },
+  "custom/wallchange": {
+        "format": "{}",
+        "exec": "echo ; echo 󰆊 switch wallpaper",
+        "on-click": "~/.config/swww/swwwallpaper.sh -n 2",
+        "on-click-right": "~/.config/swww/swwwallpaper.sh -p 2",
+        "interval" : 86400, // once every day
+        "tooltip": true
+    },
+    "cpu": {
+        "interval": 10,
+        "format": "CPU {usage}%",
+        "format-alt": "{icon0}{icon1}{icon2}{icon3}",
+        "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
+    },
+    "memory": {
+        "interval": 30,
+        "format": "RAM {used}GB",
+        "tooltip": true,
+        "tooltip-format": " {used:0.1f}GB/{total:0.1f}GB"
+    },
+   
+}
