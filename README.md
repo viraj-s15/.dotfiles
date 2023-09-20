@@ -5,7 +5,14 @@
 ## About <a name = "about"></a>
 
 Finally created a symlinked version of the dotfiles.
-Contains all the config files for important application on Arch Linux.
+Contains all the config files for my arch rice.
+
+![image](https://github.com/viraj-s15/.dotfiles/assets/79002760/fc3a03b6-62fc-4a7f-8c7c-78ee286afba0)
+
+
+
+
+
 
 ## Getting Started <a name = "getting_started"></a>
 
