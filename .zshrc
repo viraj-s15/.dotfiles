@@ -9,19 +9,18 @@ fi
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+#export ZSH="$HOME/.oh-my-zsh"
+ZSH=/usr/share/oh-my-zsh/
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="powerlevel10k/powerlevel10k"
-if [[ $(ps --no-header -p $PPID -o comm) =~ '^alacritty$' ]]; then
-        for wid in $(xdotool search --pid $PPID); do
-            xprop -f _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0 -id $wid; done
-fi
+#ZSH_THEME="powerlevel10k"
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+# PATH=$PATH:~/opt/rocm/bin/
 # Set list of themes to pick from when loading at random
-# Setting this variable when ZSH_THEME="archcraft"
+# Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
@@ -34,7 +33,7 @@ fi
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment one of the following lines to change the auto-update behavior
-zstyle ':omz:update' mode disabled  # disable automatic updates
+# zstyle ':omz:update' mode disabled  # disable automatic updates
 # zstyle ':omz:update' mode auto      # update automatically without asking
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
@@ -81,7 +80,8 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
-
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -110,50 +110,22 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# On-demand rehash
-zshcache_time="$(date +%s%N)"
-
-autoload -Uz add-zsh-hook
-
-rehash_precmd() {
-  if [[ -a /var/cache/zsh/pacman ]]; then
-    local paccache_time="$(date -r /var/cache/zsh/pacman +%s%N)"
-    if (( zshcache_time < paccache_time )); then
-      rehash
-      zshcache_time="$paccache_time"
-    fi
-  fi
-}
-
-add-zsh-hook -Uz precmd rehash_precmd
-
-# omz
-alias zshconfig="geany ~/.zshrc"
-alias ohmyzsh="thunar ~/.oh-my-zsh"
-
 alias docs="cd Documents"
 alias down="cd Downloads"
 alias cpp="cd Documents/'Main Cpp'"
 alias c1="cd Documents/'Main C'"
 
-
-
-
-
+alias lz='lazygit'
+alias hdd='cd "/run/media/veer/TOSHIBA EXT"'
 # ls
 alias l='ls -lh'
 alias ll='ls -lah'
-alias la='ls -A'
+alias la='ls -a'
 alias lm='ls -m'
 alias lr='ls -R'
 alias lg='ls -l --group-directories-first'
 alias vim='nvim'
 # git
-alias gcl='git clone --depth 1'
-alias gi='git init'
-alias ga='git add'
-alias gc='git commit -m'
-alias gp='git push origin master'
 
 # pacman 
 #pacman unlock
@@ -178,10 +150,19 @@ alias search='pacman -Qs'
 alias remove='sudo pacman -R'
 alias install='sudo pacman -S'
 alias linstall='sudo pacman -U '
-alias update='sudo pacman -Syyu'
+alias update='sudo pacman -Syu'
 alias clrcache='sudo pacman -Scc'
 alias orphans='sudo pacman -Rns $(pacman -Qtdq)'
 alias akring='sudo pacman -Sy archlinux-keyring --noconfirm'
+
+
+alias jb='HSA_OVERRIDE_GFX_VERSION=10.3.0 jupyter lab --no-browser'
+
+alias python='HSA_OVERRIDE_GFX_VERSION=10.3.0 python'
+alias python3='HSA_OVERRIDE_GFX_VERSION=10.3.0 python3'
+
+
+alias nvid='neovide .'
 
 # Paru/Yay stuff
 alias pget='paru -S '
@@ -204,8 +185,6 @@ alias hw='hwinfo --short'
 
 #GiT  command
 alias gc='git clone '
-alias gp='git pull'
-alias gitcl="git clone"
 alias gitcm="git commit -m"
 alias gita="git add ."
 alias gitpo="git push origin"
@@ -226,3 +205,18 @@ alias lapps='cd ~/.local/share/applications'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+#Display specs
+#neofetch
+
+#Display Pokemon
+pokemon-colorscripts --no-title -r 1,3,6
+
+export PATH=$PATH:/opt/rocm/bin
+#Display gif
+#kitten icat --align left ~/.config/neofetch/pochita.gif
+export PATH=$PATH:/home/veer/.spicetify
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
