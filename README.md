@@ -9,23 +9,17 @@ Contains all the config files for my arch rice.
 
 ![image](https://github.com/viraj-s15/.dotfiles/assets/79002760/fc3a03b6-62fc-4a7f-8c7c-78ee286afba0)
 
-
-
-
-
-
-## Getting Started <a name = "getting_started"></a>
-
-You will mainly need to Arch Linux along with Kde and easyeffects for the config files to work as is. If not, you may haver to change
-a few things around.
-
-**NOTE: DO NOT TOUCH ANYTHING IN THE NVIM DIRECTORY OUTSIDE THE USER DIRECTORY**
-
-For NeoVim I have used AstroNvim which is where the folder leads to, it doesnt let me copy over the font and some plugins for some reasons.
-For example, a plugin such has Telescope works perfectly fine however O
-
-### Installing
-
+## About <a name = "about"></a>
+Applications used:
+- Waybar
+- Picom
+- Swww
+- Zsh
+- Hyprland
+- Arch Linux
+- Neovim
+- Kitty
+  
 All the files are symlinked copies of the actual config files.
 If the configuration of your system matches mine you can simply clone the repo and copy the files over to your home directory.
 For bash you will not face any issues however, for zsh the given config file will not work.
