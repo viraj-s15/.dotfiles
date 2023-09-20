@@ -126,7 +126,7 @@ alias lr='ls -R'
 alias lg='ls -l --group-directories-first'
 alias vim='nvim'
 # git
-
+alias batstat='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
 # pacman 
 #pacman unlock
 alias unlock='sudo rm /var/lib/pacman/db.lck'
