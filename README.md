@@ -22,7 +22,8 @@ Applications used:
   
 All the files are symlinked copies of the actual config files.
 If the configuration of your system matches mine you can simply clone the repo and copy the files over to your home directory.
-For bash you will not face any issues however, for zsh the given config file will not work.
+Config files for both zsh and bash have been included, however, they are slightly different, I cannot guarantee whether the bashrc will 
+work for all the scenarios however, the zshrc will
 
 ```
 git clone https://github.com/viraj-s15/.dotfiles.git
