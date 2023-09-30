@@ -1,0 +1,1542 @@
+[2023-08-25 10:12:16.740] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:12:16.741] [error] (node:20451) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 10:12:16.741] [error] (node:20451) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 10:12:58.675] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 10:14:47.725] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:14:47.730] [warn]  TypeError: Cannot read properties of undefined (reading 'widget')
+[2023-08-25 10:16:47.628] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:16:47.629] [error] (node:23116) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 10:16:47.630] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 10:16:51.486] [warn]  Unsatisfied version 2.3.0 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^1.37.2)
+[2023-08-25 10:16:52.697] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 10:17:09.617] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:17:17.801] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'type')
+[2023-08-25 10:17:18.050] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'type')
+[2023-08-25 10:17:18.655] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:17:18.726] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:18:50.277] [error] Error rendering buttons of the cell toolbar:  TypeError: Cannot read properties of null (reading 'insertWidget')
+[2023-08-25 10:20:17.867] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:20:17.872] [warn]  TypeError: Cannot read properties of undefined (reading 'widget')
+[2023-08-25 10:20:20.926] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:21:21.899] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:21:21.907] [warn]  TypeError: Cannot read properties of undefined (reading 'widget')
+[2023-08-25 10:21:24.942] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:21:35.488] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:21:35.492] [warn]  TypeError: Cannot read properties of undefined (reading 'widget')
+[2023-08-25 10:21:38.545] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:31:51.174] [warn]  Terminal websocket closed: 1006
+[2023-08-25 10:31:51.181] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:31:51.181] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:31:51.183] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:31:51.183] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:31:51.602] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:31:51.602] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:31:52.544] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:31:52.544] [error] Connection lost, reconnecting in 3 seconds.
+[2023-08-25 10:31:54.334] [warn]  Showing error: [object Object]
+[2023-08-25 10:31:56.537] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:31:56.537] [error] Connection lost, reconnecting in 3 seconds.
+[2023-08-25 10:31:59.649] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:31:59.649] [error] Connection lost, reconnecting in 5 seconds.
+[2023-08-25 10:32:09.360] [error] (node:23116) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'focus')
+    at EventEmitter.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:285:38)
+    at EventEmitter.emit (node:events:513:28)
+    at Object.showErrorBox (node:electron/js2c/browser_init:2:20723)
+    at node:electron/js2c/browser_init:2:113631
+[2023-08-25 10:32:09.360] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+[2023-08-25 10:32:10.400] [error] (node:23116) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'focus')
+    at EventEmitter.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:285:38)
+    at EventEmitter.emit (node:events:513:28)
+    at Object.showErrorBox (node:electron/js2c/browser_init:2:20723)
+    at node:electron/js2c/browser_init:2:113631
+[2023-08-25 10:32:10.400] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[2023-08-25 10:32:11.224] [error] (node:23116) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'focus')
+    at EventEmitter.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:285:38)
+    at EventEmitter.emit (node:events:513:28)
+    at Object.showErrorBox (node:electron/js2c/browser_init:2:20723)
+    at node:electron/js2c/browser_init:2:113631
+[2023-08-25 10:32:11.225] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
+[2023-08-25 10:32:11.641] [error] (node:23116) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'focus')
+    at EventEmitter.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:285:38)
+    at EventEmitter.emit (node:events:513:28)
+    at Object.showErrorBox (node:electron/js2c/browser_init:2:20723)
+    at node:electron/js2c/browser_init:2:113631
+[2023-08-25 10:32:11.641] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+[2023-08-25 10:32:11.936] [error] (node:23116) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'focus')
+    at EventEmitter.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:285:38)
+    at EventEmitter.emit (node:events:513:28)
+    at Object.showErrorBox (node:electron/js2c/browser_init:2:20723)
+    at node:electron/js2c/browser_init:2:113631
+[2023-08-25 10:32:11.936] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 7)
+[2023-08-25 10:32:12.224] [error] (node:23116) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'focus')
+    at EventEmitter.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:285:38)
+    at EventEmitter.emit (node:events:513:28)
+    at Object.showErrorBox (node:electron/js2c/browser_init:2:20723)
+    at node:electron/js2c/browser_init:2:113631
+[2023-08-25 10:32:12.225] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+[2023-08-25 10:32:15.149] [error] (node:23116) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'focus')
+    at EventEmitter.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:285:38)
+    at EventEmitter.emit (node:events:513:28)
+    at Object.showErrorBox (node:electron/js2c/browser_init:2:20723)
+    at node:electron/js2c/browser_init:2:113631
+[2023-08-25 10:32:15.150] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 9)
+[2023-08-25 10:32:15.589] [error] (node:23116) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'focus')
+    at EventEmitter.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:285:38)
+    at EventEmitter.emit (node:events:513:28)
+    at Object.showErrorBox (node:electron/js2c/browser_init:2:20723)
+    at node:electron/js2c/browser_init:2:113631
+[2023-08-25 10:32:15.589] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
+[2023-08-25 10:32:15.830] [error] (node:23116) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'focus')
+    at EventEmitter.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:285:38)
+    at EventEmitter.emit (node:events:513:28)
+    at Object.showErrorBox (node:electron/js2c/browser_init:2:20723)
+    at node:electron/js2c/browser_init:2:113631
+[2023-08-25 10:32:15.830] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 11)
+[2023-08-25 10:32:16.794] [error] (node:23116) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'focus')
+    at EventEmitter.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:285:38)
+    at EventEmitter.emit (node:events:513:28)
+    at Object.showErrorBox (node:electron/js2c/browser_init:2:20723)
+    at node:electron/js2c/browser_init:2:113631
+[2023-08-25 10:32:16.794] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 13)
+[2023-08-25 10:32:16.794] [error] (node:23116) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'focus')
+    at EventEmitter.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:285:38)
+    at EventEmitter.emit (node:events:513:28)
+    at Object.showErrorBox (node:electron/js2c/browser_init:2:20723)
+    at node:electron/js2c/browser_init:2:113631
+[2023-08-25 10:32:16.794] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 14)
+[2023-08-25 10:32:16.794] [error] (node:23116) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'focus')
+    at EventEmitter.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:285:38)
+    at EventEmitter.emit (node:events:513:28)
+    at Object.showErrorBox (node:electron/js2c/browser_init:2:20723)
+    at node:electron/js2c/browser_init:2:113631
+[2023-08-25 10:32:16.794] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 15)
+[2023-08-25 10:32:16.794] [error] (node:23116) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'focus')
+    at EventEmitter.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:285:38)
+    at EventEmitter.emit (node:events:513:28)
+    at Object.showErrorBox (node:electron/js2c/browser_init:2:20723)
+    at node:electron/js2c/browser_init:2:113631
+[2023-08-25 10:32:16.794] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 16)
+[2023-08-25 10:32:16.795] [error] (node:23116) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'focus')
+    at EventEmitter.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:285:38)
+    at EventEmitter.emit (node:events:513:28)
+    at Object.showErrorBox (node:electron/js2c/browser_init:2:20723)
+    at node:electron/js2c/browser_init:2:113631
+[2023-08-25 10:32:16.795] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 17)
+[2023-08-25 10:32:16.795] [error] (node:23116) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of null (reading 'focus')
+    at EventEmitter.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:285:38)
+    at EventEmitter.emit (node:events:513:28)
+    at Object.showErrorBox (node:electron/js2c/browser_init:2:20723)
+    at node:electron/js2c/browser_init:2:113631
+[2023-08-25 10:32:16.795] [error] (node:23116) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 18)
+[2023-08-25 10:32:19.648] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:32:19.650] [error] (node:40168) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 10:32:19.650] [error] (node:40168) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 10:32:21.245] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 10:32:21.246] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 10:32:21.246] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 10:32:21.246] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 10:32:21.246] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 10:32:21.247] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 10:32:21.247] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 10:32:21.247] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 10:32:21.248] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 10:32:21.248] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.5 from @jupyterlab/application-top
+[2023-08-25 10:32:21.248] [warn]  Unsatisfied version 6.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 10:32:21.248] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 10:32:21.248] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 10:32:21.249] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 10:32:21.249] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 10:32:22.478] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 10:32:22.881] [warn]  LSP.SettingsSchemaManager: No config schema - skipping transformation for jedi-language-server
+[2023-08-25 10:32:25.484] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:32:25.548] [warn]  LSP.WidgetAdapter: No language server installed for language python
+[2023-08-25 10:32:25.593] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:32:25.594] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:32:41.538] [warn]  LSP.WidgetAdapter: No language server installed for language python
+[2023-08-25 10:32:42.679] [warn]  LSP.WidgetAdapter: No language server installed for language python
+[2023-08-25 10:32:42.726] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.726] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.726] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.726] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.727] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.727] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.727] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.727] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.727] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.727] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.728] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.728] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.728] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.728] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.728] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.728] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.729] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.729] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.729] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.729] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.749] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.750] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.750] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.750] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.750] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.750] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.750] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.751] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.751] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.751] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.751] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.751] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.751] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.751] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.752] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.752] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.752] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.752] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.752] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.752] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.820] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.821] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.821] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.821] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.821] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.821] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.821] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.822] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.822] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.822] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.822] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.822] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.822] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.822] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.823] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.823] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.823] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.823] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:42.823] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:32:42.823] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:32:51.612] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 10:32:51.793] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 10:33:39.144] [error] Uncaught TypeError: Cannot read properties of undefined (reading 'getBoundingClientRect')
+[2023-08-25 10:33:39.148] [error] Uncaught TypeError: Cannot read properties of undefined (reading 'getBoundingClientRect')
+[2023-08-25 10:33:39.154] [error] Uncaught TypeError: Cannot read properties of undefined (reading 'getBoundingClientRect')
+[2023-08-25 10:33:43.301] [error] Comm not found for comm id f175a1be-f5fd-4f74-9cdd-aa3b6bee01c0
+[2023-08-25 10:33:43.336] [error] Comm not found for comm id eaa21fc6-050f-4533-8b04-00ffa2b3a21a
+[2023-08-25 10:33:43.366] [error] Comm not found for comm id 1daf5742-ddf1-4fe8-8d4a-bc4cca63d403
+[2023-08-25 10:34:23.503] [error] TypeError: Cannot read properties of undefined (reading 'sendSaved')
+[2023-08-25 10:34:31.861] [warn]  Terminal websocket closed: 1006
+[2023-08-25 10:34:31.861] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:34:31.862] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:34:31.864] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:34:31.864] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:34:31.864] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:34:31.864] [warn]  Terminal websocket closed: 1006
+[2023-08-25 10:34:31.865] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:34:31.866] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:34:31.867] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:34:31.920] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:34:31.920] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:34:31.936] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:34:31.937] [error] Connection lost, reconnecting in 1 seconds.
+[2023-08-25 10:34:32.526] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:34:32.527] [error] Connection lost, reconnecting in 2 seconds.
+[2023-08-25 10:34:32.980] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:34:32.980] [error] Connection lost, reconnecting in 4 seconds.
+[2023-08-25 10:35:48.320] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:35:48.321] [error] (node:42518) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 10:35:48.322] [error] (node:42518) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 10:35:49.656] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 10:35:49.657] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 10:35:49.657] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 10:35:49.657] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 10:35:49.657] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 10:35:49.657] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 10:35:49.658] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 10:35:49.658] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 10:35:49.658] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 10:35:49.658] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.5 from @jupyterlab/application-top
+[2023-08-25 10:35:49.658] [warn]  Unsatisfied version 6.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 10:35:49.658] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 10:35:49.658] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 10:35:49.658] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 10:35:49.658] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 10:35:50.906] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 10:35:51.288] [warn]  LSP.SettingsSchemaManager: No config schema - skipping transformation for jedi-language-server
+[2023-08-25 10:35:53.352] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:35:53.411] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:35:53.427] [warn]  LSP.WidgetAdapter: No language server installed for language python
+[2023-08-25 10:35:53.472] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:35:53.623] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:53.623] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:53.623] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:53.623] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:53.623] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:53.623] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:53.624] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:53.624] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:53.624] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:53.624] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:53.624] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:53.624] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:53.625] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:53.625] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:53.625] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:53.625] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:53.625] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:53.625] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:53.625] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:53.625] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:54.552] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:54.552] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:54.552] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:54.552] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:54.552] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:54.552] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:54.552] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:54.553] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:54.553] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:54.553] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:54.553] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:54.553] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:54.553] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:54.553] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:54.553] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:54.553] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:54.553] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:54.553] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:54.554] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:54.554] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.432] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 10:35:55.496] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.496] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.497] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.497] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.497] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.497] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.497] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.497] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.497] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.497] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.497] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.497] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.497] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.497] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.497] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.497] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.498] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.498] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.498] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.498] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.625] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 10:35:55.701] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.701] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.702] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.702] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.702] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.702] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.702] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.702] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.703] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.703] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.703] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.703] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.703] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.703] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.703] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.704] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.704] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.704] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:35:55.704] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:35:55.704] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:01.607] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 10:36:01.653] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 10:36:01.682] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:01.682] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:01.682] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:01.682] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:01.682] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:01.683] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:01.683] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:01.683] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:01.683] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:01.683] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:01.683] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:01.684] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:01.684] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:01.684] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:01.684] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:01.684] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:01.684] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:01.685] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:01.685] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:01.685] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:02.284] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:02.285] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:02.285] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:02.285] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:02.285] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:02.285] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:02.286] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:02.286] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:02.286] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:02.286] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:02.286] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:02.287] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:02.287] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:02.287] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:02.287] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:02.287] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:02.287] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:02.287] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:02.288] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:02.288] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.184] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.184] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.184] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.185] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.185] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.185] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.185] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.185] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.185] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.185] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.185] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.186] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.186] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.186] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.186] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.186] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.186] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.186] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.186] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.187] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.325] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.326] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.326] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.326] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.326] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.326] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.326] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.326] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.327] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.327] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.327] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.327] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.327] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.327] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.327] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.328] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.328] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.328] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:03.328] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:03.328] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:04.236] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:04.236] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:04.236] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:04.236] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:04.237] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:04.237] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:04.237] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:04.237] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:04.237] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:04.238] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:04.238] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:04.238] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:04.238] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:04.238] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:04.238] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:04.239] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:04.239] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:04.239] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:04.239] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:04.239] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:05.655] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:05.656] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:05.656] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:05.656] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:05.656] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:05.656] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:05.656] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:05.657] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:05.657] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:05.657] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:05.657] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:05.657] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:05.657] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:05.657] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:05.657] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:05.657] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:05.657] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:05.657] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:05.657] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:05.658] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:07.691] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:07.691] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:07.692] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:07.692] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:07.692] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:07.692] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:07.692] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:07.692] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:07.692] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:07.692] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:07.693] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:07.693] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:07.693] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:07.693] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:07.693] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:07.693] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:07.694] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:07.694] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:07.694] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:07.694] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:08.004] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:08.004] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:08.012] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:08.013] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:08.013] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:08.013] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:08.013] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:08.013] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:08.014] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:08.014] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:08.014] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:08.014] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:08.014] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:08.014] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:08.015] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:08.015] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:08.015] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:08.015] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:08.015] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:36:08.015] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 10:36:38.027] [warn]  LSP.WidgetAdapter: No language server installed for language python
+[2023-08-25 10:36:38.643] [warn]  LSP.WidgetAdapter: No language server installed for language python
+[2023-08-25 10:37:00.905] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:37:00.906] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:37:00.906] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:37:00.906] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:37:00.907] [warn]  Terminal websocket closed: 1006
+[2023-08-25 10:37:00.907] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:37:00.907] [warn]  Terminal websocket closed: 1006
+[2023-08-25 10:37:00.907] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:37:00.907] [warn]  Terminal websocket closed: 1006
+[2023-08-25 10:37:00.907] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:37:00.951] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:37:00.951] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:37:00.961] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:37:00.962] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:37:00.972] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:37:00.972] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:37:01.180] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:37:01.180] [error] Connection lost, reconnecting in 1 seconds.
+[2023-08-25 10:37:01.310] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:37:01.311] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:37:01.467] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:37:01.468] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:37:01.658] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:37:01.659] [error] Connection lost, reconnecting in 4 seconds.
+[2023-08-25 10:37:02.272] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:37:02.273] [error] Connection lost, reconnecting in 3 seconds.
+[2023-08-25 10:37:02.459] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:37:02.459] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:37:02.961] [warn]  Terminal websocket closed: undefined
+[2023-08-25 10:37:02.961] [error] Connection lost, reconnecting in 9 seconds.
+[2023-08-25 10:37:03.461] [warn]  Showing error: [object Object]
+[2023-08-25 10:37:12.938] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:37:13.037] [error] Uncaught (in promise) Error: Session not found: session_id='1ee4983e-2307-4629-afff-3102639f3f4c'
+[2023-08-25 10:37:19.957] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:37:19.959] [error] (node:43869) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 10:37:19.959] [error] (node:43869) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 10:37:21.631] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 10:37:21.631] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 10:37:21.632] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 10:37:21.632] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 10:37:21.632] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 10:37:21.633] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 10:37:21.633] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 10:37:21.633] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 10:37:21.633] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 10:37:21.634] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.5 from @jupyterlab/application-top
+[2023-08-25 10:37:21.634] [warn]  Unsatisfied version 6.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 10:37:21.634] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 10:37:21.634] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 10:37:21.634] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 10:37:21.635] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 10:37:22.867] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 10:37:23.217] [warn]  LSP.SettingsSchemaManager: No config schema - skipping transformation for jedi-language-server
+[2023-08-25 10:37:25.435] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:37:25.483] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:37:25.551] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:39:27.456] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:39:27.458] [warn]  LSP.DocumentConnectionManager: Error: Reader received error. Reason: Error during socket reconnect: code = 1006, reason = ,,
+[2023-08-25 10:39:27.458] [warn]  LSP.DocumentConnectionManager: Connection closed by the server
+[2023-08-25 10:39:27.458] [warn]  LSP.DocumentConnectionManager: Connection unexpectedly disconnected
+[2023-08-25 10:39:27.458] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:39:27.459] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:39:27.462] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:39:31.975] [warn]  Showing error: [object Object]
+[2023-08-25 10:39:35.602] [warn]  Showing error: [object Object]
+[2023-08-25 10:39:50.874] [warn]  Showing error: [object Object]
+[2023-08-25 10:39:53.510] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:39:53.534] [warn]  Connection lost, reconnecting in 2 seconds.
+[2023-08-25 10:39:55.370] [error] Error: Directory not found: "data"
+[2023-08-25 10:39:55.370] [warn]  Showing error: Error: Directory not found: "data"
+[2023-08-25 10:40:00.760] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:40:00.762] [error] (node:45861) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 10:40:00.762] [error] (node:45861) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 10:40:04.069] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 10:40:17.543] [warn]  TypeError: Cannot read properties of undefined (reading 'widget')
+[2023-08-25 10:41:55.809] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 10:41:57.618] [warn]  Showing error: [object Object]
+[2023-08-25 10:42:48.569] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:42:48.571] [error] (node:46550) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 10:42:48.571] [error] (node:46550) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 10:42:52.624] [error] (node:46550) electron: Failed to load URL: http://localhost:8888/lab?token=b9a267b41dd880285815f4b6b92808d0de344df9699fe75e with error: ERR_CONNECTION_REFUSED
+[2023-08-25 10:43:06.151] [error] (node:46550) electron: Failed to load URL: http://localhost:8888/lab?token=b9a267b41dd880285815f4b6b92808d0de344df9699fe75e with error: ERR_CONNECTION_REFUSED
+[2023-08-25 10:49:03.652] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:49:03.654] [error] (node:50638) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 10:49:03.654] [error] (node:50638) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 10:49:31.823] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:49:31.824] [error] (node:51184) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 10:49:31.824] [error] (node:51184) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 10:49:34.738] [error] (node:51184) electron: Failed to load URL: http://localhost:8888/lab?token=b9a267b41dd880285815f4b6b92808d0de344df9699fe75e with error: ERR_CONNECTION_REFUSED
+[2023-08-25 10:51:54.782] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:51:54.784] [error] (node:52043) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 10:51:54.784] [error] (node:52043) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 10:52:48.666] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 10:52:48.666] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 10:52:48.667] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 10:52:48.667] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 10:52:48.667] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 10:52:48.667] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 10:52:48.668] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 10:52:48.668] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 10:52:48.668] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 10:52:48.668] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.5 from @jupyterlab/application-top
+[2023-08-25 10:52:48.669] [warn]  Unsatisfied version 6.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 10:52:48.669] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 10:52:48.669] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 10:52:48.669] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 10:52:48.670] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 10:52:49.907] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 10:52:50.318] [warn]  LSP.SettingsSchemaManager: No config schema - skipping transformation for jedi-language-server
+[2023-08-25 10:54:12.800] [error] (node:52043) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of undefined (reading 'workingDirectory')
+    at /opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:818:55
+[2023-08-25 10:54:12.800] [error] (node:52043) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+[2023-08-25 10:54:12.800] [error] (node:52043) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:54:12.801] [error] (node:52043) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[2023-08-25 10:54:12.801] [error] Handling request in the main instance.
+[2023-08-25 10:55:18.042] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:55:18.044] [error] (node:53891) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 10:55:18.044] [error] (node:53891) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 10:55:41.876] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:55:41.878] [error] (node:54478) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 10:55:41.878] [error] (node:54478) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 10:55:43.688] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 10:55:43.689] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 10:55:43.689] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 10:55:43.690] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 10:55:43.690] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 10:55:43.690] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 10:55:43.690] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 10:55:43.691] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 10:55:43.691] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 10:55:43.692] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.5 from @jupyterlab/application-top
+[2023-08-25 10:55:43.692] [warn]  Unsatisfied version 6.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 10:55:43.692] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 10:55:43.693] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 10:55:43.693] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 10:55:43.693] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 10:55:44.914] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 10:55:45.323] [warn]  LSP.SettingsSchemaManager: No config schema - skipping transformation for jedi-language-server
+[2023-08-25 10:56:08.702] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 10:56:18.207] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:56:18.208] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 10:56:23.468] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'editor')
+[2023-08-25 10:56:27.254] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'editor')
+[2023-08-25 10:56:27.968] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:56:27.968] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 10:56:27.969] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:56:27.969] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 10:56:37.651] [warn]  LSP.WidgetAdapter.LSP Function signature: Error: ValueError: `column` parameter (28) is not in a valid range (0-27) for line 8 ('a = torch.rand(3,3).to(devi\n').
+[2023-08-25 10:56:42.328] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'editor')
+[2023-08-25 10:56:45.841] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'editor')
+[2023-08-25 10:56:46.933] [warn]  LSP.WidgetAdapter.LSP Function signature: Error: ValueError: `column` parameter (7) is not in a valid range (0-6) for line 10 ('print(\n').
+[2023-08-25 10:56:47.544] [warn]  LSP.WidgetAdapter.LSP Function signature: Error: ValueError: `column` parameter (8) is not in a valid range (0-7) for line 10 ('print(a\n').
+[2023-08-25 10:56:47.851] [warn]  LSP.WidgetAdapter.LSP Function signature: Error: ValueError: `column` parameter (9) is not in a valid range (0-8) for line 10 ('print(a+\n').
+[2023-08-25 10:56:48.158] [warn]  LSP.WidgetAdapter.LSP Function signature: Error: ValueError: `column` parameter (10) is not in a valid range (0-9) for line 10 ('print(a+b\n').
+[2023-08-25 10:56:49.017] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:56:49.018] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 10:56:49.018] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:56:49.018] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 10:57:07.548] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'editor')
+[2023-08-25 10:57:10.178] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:57:10.179] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 10:57:10.179] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:57:10.179] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 10:57:11.499] [warn]  LSP.WidgetAdapter.LSP Function signature: Error: ValueError: `column` parameter (7) is not in a valid range (0-6) for line 16 ('print(\n').
+[2023-08-25 10:57:12.310] [warn]  LSP.WidgetAdapter.LSP Function signature: Error: ValueError: `column` parameter (8) is not in a valid range (0-7) for line 16 ('print(a\n').
+[2023-08-25 10:57:12.514] [warn]  LSP.WidgetAdapter.LSP Function signature: Error: ValueError: `column` parameter (9) is not in a valid range (0-8) for line 16 ('print(a+\n').
+[2023-08-25 10:57:12.821] [warn]  LSP.WidgetAdapter.LSP Function signature: Error: ValueError: `column` parameter (10) is not in a valid range (0-9) for line 16 ('print(a+b\n').
+[2023-08-25 10:57:13.026] [warn]  LSP.WidgetAdapter.LSP Function signature: Error: ValueError: `column` parameter (11) is not in a valid range (0-10) for line 16 ('print(a+b+\n').
+[2023-08-25 10:57:13.235] [warn]  LSP.WidgetAdapter.LSP Function signature: Error: ValueError: `column` parameter (12) is not in a valid range (0-11) for line 16 ('print(a+b+c\n').
+[2023-08-25 10:57:13.765] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:57:13.765] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 10:57:13.766] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 10:57:13.766] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 10:57:56.091] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:57:56.092] [error] (node:55172) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 10:57:56.092] [error] (node:55172) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 10:57:59.101] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 10:57:59.102] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 10:57:59.102] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 10:57:59.102] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 10:57:59.103] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 10:57:59.103] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 10:57:59.103] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 10:57:59.103] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 10:57:59.103] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 10:57:59.104] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.5 from @jupyterlab/application-top
+[2023-08-25 10:57:59.104] [warn]  Unsatisfied version 6.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 10:57:59.104] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 10:57:59.105] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 10:57:59.105] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 10:57:59.105] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 10:58:00.321] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 10:58:00.670] [warn]  LSP.SettingsSchemaManager: No config schema - skipping transformation for jedi-language-server
+[2023-08-25 10:58:10.325] [error] (node:55172) UnhandledPromiseRejectionWarning: TypeError: Cannot read properties of undefined (reading 'workingDirectory')
+    at /opt/JupyterLab/resources/app.asar/build/out/main/sessionwindow/sessionwindow.js:818:55
+[2023-08-25 10:58:10.325] [error] (node:55172) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+[2023-08-25 10:58:10.325] [error] (node:55172) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:58:10.325] [error] (node:55172) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[2023-08-25 10:58:10.326] [error] Handling request in the main instance.
+[2023-08-25 10:59:15.979] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:59:15.980] [error] (node:57058) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 10:59:15.981] [error] (node:57058) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 10:59:21.103] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 10:59:21.103] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 10:59:21.103] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 10:59:21.104] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 10:59:21.104] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 10:59:21.104] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 10:59:21.104] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 10:59:21.104] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 10:59:21.104] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 10:59:21.104] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.5 from @jupyterlab/application-top
+[2023-08-25 10:59:21.104] [warn]  Unsatisfied version 6.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 10:59:21.105] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 10:59:21.105] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 10:59:21.105] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 10:59:21.105] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 10:59:22.303] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 10:59:22.795] [warn]  LSP.SettingsSchemaManager: No config schema - skipping transformation for jedi-language-server
+[2023-08-25 10:59:33.480] [warn]  LSP.DocumentConnectionManager: Error: Reader received error. Reason: Error during socket reconnect: code = 1006, reason = ,,
+[2023-08-25 10:59:33.480] [warn]  LSP.DocumentConnectionManager: Connection closed by the server
+[2023-08-25 10:59:33.481] [warn]  LSP.DocumentConnectionManager: Connection unexpectedly disconnected
+[2023-08-25 10:59:50.339] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 10:59:50.340] [error] (node:57975) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 10:59:50.340] [error] (node:57975) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 11:00:08.979] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 11:00:08.979] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 11:00:08.980] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 11:00:08.980] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 11:00:08.980] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 11:00:08.980] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 11:00:08.981] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 11:00:08.981] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 11:00:08.981] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 11:00:08.981] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.5 from @jupyterlab/application-top
+[2023-08-25 11:00:08.982] [warn]  Unsatisfied version 6.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 11:00:08.982] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 11:00:08.982] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 11:00:08.982] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 11:00:08.982] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 11:00:10.258] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 11:00:10.685] [warn]  LSP.SettingsSchemaManager: No config schema - skipping transformation for jedi-language-server
+[2023-08-25 11:01:49.464] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 11:01:49.972] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 11:02:37.830] [warn]  LSP.DocumentConnectionManager: Error: Reader received error. Reason: Error during socket reconnect: code = 1006, reason = ,,
+[2023-08-25 11:02:37.831] [warn]  LSP.DocumentConnectionManager: Connection closed by the server
+[2023-08-25 11:02:37.831] [warn]  LSP.DocumentConnectionManager: Connection unexpectedly disconnected
+[2023-08-25 11:02:37.835] [warn]  Terminal websocket closed: 1006
+[2023-08-25 11:02:37.836] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 11:02:37.836] [warn]  Terminal websocket closed: undefined
+[2023-08-25 11:02:37.836] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 11:02:38.129] [warn]  Terminal websocket closed: undefined
+[2023-08-25 11:02:38.130] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 11:02:38.412] [warn]  Terminal websocket closed: undefined
+[2023-08-25 11:02:38.413] [error] Connection lost, reconnecting in 2 seconds.
+[2023-08-25 11:02:39.556] [warn]  Showing error: [object Object]
+[2023-08-25 11:02:40.467] [warn]  Terminal websocket closed: undefined
+[2023-08-25 11:02:40.467] [error] Connection lost, reconnecting in 9 seconds.
+[2023-08-25 11:02:46.628] [warn]  Showing error: [object Object]
+[2023-08-25 11:02:50.468] [warn]  Terminal websocket closed: undefined
+[2023-08-25 11:02:50.468] [error] Connection lost, reconnecting in 8 seconds.
+[2023-08-25 11:02:56.588] [warn]  Showing error: [object Object]
+[2023-08-25 11:02:58.649] [warn]  Terminal websocket closed: undefined
+[2023-08-25 11:02:58.650] [error] Connection lost, reconnecting in 60 seconds.
+[2023-08-25 11:03:09.210] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 11:03:09.212] [error] (node:59669) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 11:03:09.212] [error] (node:59669) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 11:03:11.996] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 11:03:11.997] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 11:03:11.997] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 11:03:11.997] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 11:03:11.998] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 11:03:11.998] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 11:03:11.998] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 11:03:11.998] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 11:03:11.998] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 11:03:11.999] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.5 from @jupyterlab/application-top
+[2023-08-25 11:03:11.999] [warn]  Unsatisfied version 6.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 11:03:11.999] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 11:03:11.999] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 11:03:11.999] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 11:03:11.999] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 11:03:13.266] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 11:03:13.691] [warn]  LSP.SettingsSchemaManager: No config schema - skipping transformation for jedi-language-server
+[2023-08-25 11:04:15.767] [warn]  LSP.WidgetAdapter.LSP Diagnostics: Could not place inspections from file:///home/veer/Documents/mojo/stock-trend/scripts/calc_acc.py  inspections:  [object Object] error:  TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 11:05:28.090] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 11:06:02.161] [warn]  LSP.WidgetAdapter.LSP Diagnostics: Could not place inspections from file:///home/veer/Documents/mojo/stock-trend/.virtual_documents/notebooks/model.ipynb  inspections:  [object Object] error:  TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 11:06:02.162] [warn]  LSP.WidgetAdapter.LSP Diagnostics: Could not place inspections from file:///home/veer/Documents/mojo/stock-trend/.virtual_documents/notebooks/model.ipynb  inspections:  [object Object] error:  TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 11:06:02.162] [warn]  LSP.WidgetAdapter.LSP Diagnostics: Could not place inspections from file:///home/veer/Documents/mojo/stock-trend/.virtual_documents/notebooks/model.ipynb  inspections:  [object Object] error:  TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 11:06:02.162] [warn]  LSP.WidgetAdapter.LSP Diagnostics: Could not place inspections from file:///home/veer/Documents/mojo/stock-trend/.virtual_documents/notebooks/model.ipynb  inspections:  [object Object] error:  TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 11:06:02.163] [warn]  LSP.WidgetAdapter.LSP Diagnostics: Could not place inspections from file:///home/veer/Documents/mojo/stock-trend/.virtual_documents/notebooks/model.ipynb  inspections:  [object Object] error:  TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 11:06:02.163] [warn]  LSP.WidgetAdapter.LSP Diagnostics: Could not place inspections from file:///home/veer/Documents/mojo/stock-trend/.virtual_documents/notebooks/model.ipynb  inspections:  [object Object] error:  TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 11:06:02.163] [warn]  LSP.WidgetAdapter.LSP Diagnostics: Could not place inspections from file:///home/veer/Documents/mojo/stock-trend/.virtual_documents/notebooks/model.ipynb  inspections:  [object Object] error:  TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 11:06:02.163] [warn]  LSP.WidgetAdapter.LSP Diagnostics: Could not place inspections from file:///home/veer/Documents/mojo/stock-trend/.virtual_documents/notebooks/model.ipynb  inspections:  [object Object] error:  TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 11:06:05.508] [warn]  LSP.WidgetAdapter.LSP Diagnostics: Could not place inspections from file:///home/veer/Documents/mojo/stock-trend/.virtual_documents/notebooks/model.ipynb  inspections:  [object Object] error:  TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 11:06:38.303] [warn]  LSP.WidgetAdapter.LSP Diagnostics: Could not place inspections from file:///home/veer/Documents/mojo/stock-trend/.virtual_documents/notebooks/model.ipynb  inspections:  [object Object] error:  TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 11:08:29.440] [warn]  Cannot execute key binding 'Ctrl Shift I': command 'debugger:debug-notebook' is not registered.
+[2023-08-25 11:09:37.220] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 11:09:37.339] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 11:10:55.856] [warn]  Unsatisfied version 6.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.0)
+[2023-08-25 11:10:55.857] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.0)
+[2023-08-25 11:10:55.857] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/fileeditor (required ^4.0.0)
+[2023-08-25 11:10:55.857] [warn]  Unsatisfied version 5.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/coreutils (required ^6.0.0)
+[2023-08-25 11:10:55.857] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/apputils (required ^4.0.0)
+[2023-08-25 11:10:55.857] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.0)
+[2023-08-25 11:10:55.857] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 11:10:55.857] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/ui-components (required ^4.0.0)
+[2023-08-25 11:10:55.858] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.0)
+[2023-08-25 11:10:56.045] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 11:10:56.045] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 11:10:56.046] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 11:10:56.046] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 11:10:56.046] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 11:10:56.047] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 11:10:56.047] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 11:10:56.047] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 11:10:56.047] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 11:10:56.047] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.5 from @jupyterlab/application-top
+[2023-08-25 11:10:56.048] [warn]  Unsatisfied version 6.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 11:10:56.048] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 11:10:56.048] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 11:10:56.048] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 11:10:56.048] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 11:10:57.319] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 11:10:57.691] [error] Uncaught (in promise) Error: Not Found
+[2023-08-25 11:10:57.719] [warn]  LSP.SettingsSchemaManager: No config schema - skipping transformation for jedi-language-server
+[2023-08-25 11:10:58.641] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 11:10:58.842] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.843] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.843] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.843] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.843] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.843] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.843] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.843] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.843] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.843] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.843] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.843] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.844] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.844] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.844] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.844] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.844] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.844] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.844] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.844] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.962] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.963] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.963] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.963] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.963] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.963] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.963] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.963] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.963] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.963] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.964] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.964] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.964] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.964] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.964] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.964] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.964] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.964] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:10:58.964] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:10:58.965] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:11:02.038] [warn]  Showing error: Error: Not Found
+[2023-08-25 11:11:08.192] [warn]  Showing error: Error: Not Found
+[2023-08-25 11:11:11.075] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 11:11:11.119] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 11:11:29.140] [warn]  Showing error: Error: Not Found
+[2023-08-25 11:11:40.250] [error] TypeError: Cannot read properties of undefined (reading 'model')
+[2023-08-25 11:11:40.250] [error] TypeError: Cannot read properties of undefined (reading 'model')
+[2023-08-25 11:11:44.228] [warn]  Showing error: Error: Not Found
+[2023-08-25 11:11:48.050] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 11:11:48.051] [error] (node:62755) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 11:11:48.051] [error] (node:62755) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 11:11:49.069] [warn]  Unsatisfied version 6.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.0)
+[2023-08-25 11:11:49.070] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.0)
+[2023-08-25 11:11:49.070] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/fileeditor (required ^4.0.0)
+[2023-08-25 11:11:49.070] [warn]  Unsatisfied version 5.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/coreutils (required ^6.0.0)
+[2023-08-25 11:11:49.070] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/apputils (required ^4.0.0)
+[2023-08-25 11:11:49.070] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.0)
+[2023-08-25 11:11:49.071] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 11:11:49.071] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/ui-components (required ^4.0.0)
+[2023-08-25 11:11:49.071] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.0)
+[2023-08-25 11:11:49.266] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 11:11:49.266] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 11:11:49.266] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 11:11:49.266] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 11:11:49.267] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 11:11:49.267] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 11:11:49.267] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 11:11:49.267] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 11:11:49.267] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 11:11:49.267] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.5 from @jupyterlab/application-top
+[2023-08-25 11:11:49.267] [warn]  Unsatisfied version 6.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 11:11:49.267] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 11:11:49.268] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 11:11:49.268] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 11:11:49.268] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 11:11:50.553] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 11:11:50.937] [error] Uncaught (in promise) Error: Not Found
+[2023-08-25 11:11:50.938] [warn]  LSP.SettingsSchemaManager: No config schema - skipping transformation for jedi-language-server
+[2023-08-25 11:11:52.008] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 11:11:52.210] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:11:52.211] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:11:52.211] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:11:52.211] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:11:52.211] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:11:52.211] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:11:52.211] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:11:52.211] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:11:52.211] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:11:52.211] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:11:52.211] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:11:52.211] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:11:52.211] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:11:52.211] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:11:52.211] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:11:52.212] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:11:52.212] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:11:52.212] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:11:52.212] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:11:52.212] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:11:58.212] [warn]  Showing error: Error: Not Found
+[2023-08-25 11:12:34.541] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 11:12:34.659] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 11:13:03.843] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 11:13:03.845] [error] (node:63295) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 11:13:03.845] [error] (node:63295) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 11:13:21.080] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 11:13:21.082] [error] (node:63531) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 11:13:21.082] [error] (node:63531) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 11:14:00.157] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 11:14:00.158] [error] (node:63950) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 11:14:00.159] [error] (node:63950) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 11:14:12.297] [error] (node:63950) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 11:14:12.297] [error] (node:63950) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+[2023-08-25 11:14:12.798] [error] (node:63950) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 11:14:12.798] [error] (node:63950) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+[2023-08-25 11:15:19.962] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 11:15:19.963] [error] (node:64436) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jlab --trace-warnings ...` to show where the warning was created)
+[2023-08-25 11:15:19.964] [error] (node:64436) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 11:16:11.425] [error] Failed to start server Error: Jupyter Server process terminated before the initialization completed
+    at ChildProcess.<anonymous> (/opt/JupyterLab/resources/app.asar/build/out/main/server.js:301:28)
+    at ChildProcess.emit (node:events:513:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:291:12)
+[2023-08-25 11:16:39.239] [error] Handling request in the main instance.
+[2023-08-25 11:16:39.610] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 11:16:39.612] [error] (node:65397) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jlab --trace-warnings ...` to show where the warning was created)
+[2023-08-25 11:16:39.612] [error] (node:65397) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 11:17:14.372] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 11:17:14.374] [error] (node:68600) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 11:17:14.374] [error] (node:68600) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 11:17:42.804] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 11:17:42.806] [error] (node:68807) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 11:17:42.806] [error] (node:68807) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 11:18:34.218] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 11:18:34.219] [error] (node:69120) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 11:18:34.220] [error] (node:69120) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 11:24:39.255] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 11:24:39.256] [error] (node:76164) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 11:24:39.256] [error] (node:76164) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 11:25:26.037] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 11:25:26.038] [error] (node:76930) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 11:25:26.039] [error] (node:76930) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 11:25:31.636] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 11:25:31.636] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 11:25:31.637] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 11:25:31.637] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 11:25:31.637] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 11:25:31.637] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 11:25:31.638] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 11:25:31.638] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 11:25:31.638] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 11:25:31.639] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.5 from @jupyterlab/application-top
+[2023-08-25 11:25:31.639] [warn]  Unsatisfied version 6.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 11:25:31.639] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 11:25:31.639] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 11:25:31.639] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 11:25:31.639] [warn]  Unsatisfied version 3.6.5 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 11:25:32.887] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 11:25:33.336] [warn]  LSP.SettingsSchemaManager: No config schema - skipping transformation for jedi-language-server
+[2023-08-25 11:25:34.715] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.715] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.715] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.716] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.716] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.716] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.716] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.716] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.716] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.716] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.716] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.716] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.716] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.717] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.717] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.717] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.717] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.717] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.717] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.717] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.768] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 11:25:34.912] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.912] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.912] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.912] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.912] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.913] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.913] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.913] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.913] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.913] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.913] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.913] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.914] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.914] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.914] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.914] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.914] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.914] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:34.914] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 11:25:34.915] [warn]  LSP.WidgetAdapter: Could not retrieve current context [object Proxy]
+[2023-08-25 11:25:39.928] [error] Comm not found for comm id ead59404-b2e8-4872-b297-4835fa927721
+[2023-08-25 11:26:24.645] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 11:26:24.794] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 11:26:57.349] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 11:27:42.315] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 11:29:03.485] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 11:29:03.485] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 11:29:03.486] [warn]  LSP.DocumentConnectionManager: Error: Reader received error. Reason: Error during socket reconnect: code = 1006, reason = ,,
+[2023-08-25 11:29:03.486] [warn]  LSP.DocumentConnectionManager: Connection closed by the server
+[2023-08-25 11:29:03.486] [warn]  LSP.DocumentConnectionManager: Connection unexpectedly disconnected
+[2023-08-25 11:29:03.488] [warn]  Terminal websocket closed: 1006
+[2023-08-25 11:29:03.488] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 11:29:03.489] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 11:29:03.511] [warn]  Terminal websocket closed: undefined
+[2023-08-25 11:29:03.512] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 11:29:03.670] [warn]  Showing error: [object Object]
+[2023-08-25 11:29:04.068] [warn]  Terminal websocket closed: undefined
+[2023-08-25 11:29:04.068] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 11:29:04.889] [warn]  Terminal websocket closed: undefined
+[2023-08-25 11:29:04.889] [error] Connection lost, reconnecting in 0 seconds.
+[2023-08-25 11:29:10.408] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 11:29:10.409] [error] (node:78284) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 11:29:10.410] [error] (node:78284) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 11:29:14.045] [error] (node:78284) electron: Failed to load URL: http://localhost:8889/lab?token=c4c1899b4383c3a09a0a8a8d33f384cfeabf8a435a450209 with error: ERR_CONNECTION_REFUSED
+[2023-08-25 13:25:51.953] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 13:25:51.964] [error] (node:93658) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 13:25:51.965] [error] (node:93658) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 13:26:14.753] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 13:26:14.754] [error] (node:93993) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 13:26:14.754] [error] (node:93993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 13:26:20.746] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 13:26:20.747] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 13:26:20.747] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 13:26:20.747] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 13:26:20.747] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 13:26:20.748] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 13:26:20.748] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 13:26:20.748] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 13:26:20.748] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 13:26:20.748] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.3 from @jupyterlab/application-top
+[2023-08-25 13:26:20.749] [warn]  Unsatisfied version 6.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 13:26:20.749] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 13:26:20.749] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 13:26:20.749] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 13:26:20.750] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 13:26:22.006] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 13:26:22.590] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 13:26:22.797] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 13:27:13.843] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/domutils (required ^2.0.0)
+[2023-08-25 14:26:39.136] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 14:26:39.137] [error] (node:98550) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 14:26:39.137] [error] (node:98550) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 14:26:45.196] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 14:26:45.196] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 14:26:45.196] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 14:26:45.197] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 14:26:45.197] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 14:26:45.197] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 14:26:45.198] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 14:26:45.198] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 14:26:45.198] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 14:26:45.198] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.3 from @jupyterlab/application-top
+[2023-08-25 14:26:45.198] [warn]  Unsatisfied version 6.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 14:26:45.199] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 14:26:45.199] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 14:26:45.199] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 14:26:45.199] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 14:26:46.433] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 14:26:54.333] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 14:28:07.713] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 14:28:07.776] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 14:28:12.178] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 14:30:24.694] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 14:30:26.966] [error] Uncaught (in promise) Error: Canceled future for kernel_info_request message before replies were done
+[2023-08-25 14:30:27.187] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 14:30:28.699] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm did not respond in time
+[2023-08-25 14:30:51.470] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/domutils (required ^2.0.0)
+[2023-08-25 14:40:08.815] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 14:40:08.993] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 14:48:15.519] [warn]  Cannot execute key binding 'L': command 'notebook:toggle-cell-line-numbers' is not registered.
+[2023-08-25 15:45:35.684] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 15:45:35.686] [error] (node:111832) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 15:45:35.686] [error] (node:111832) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 15:45:39.867] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 15:45:39.867] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 15:45:39.868] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 15:45:39.868] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 15:45:39.868] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 15:45:39.868] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 15:45:39.869] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 15:45:39.869] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 15:45:39.869] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 15:45:39.869] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.3 from @jupyterlab/application-top
+[2023-08-25 15:45:39.869] [warn]  Unsatisfied version 6.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 15:45:39.869] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 15:45:39.870] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 15:45:39.870] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 15:45:39.870] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 15:45:41.170] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 15:45:41.785] [warn]  LSP.SettingsSchemaManager: No config schema - skipping transformation for jedi-language-server
+[2023-08-25 15:45:42.954] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 15:45:43.001] [error] Error: widget model not found
+[2023-08-25 15:46:24.155] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 15:46:24.340] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 15:48:44.972] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 15:48:47.992] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 15:48:50.326] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/domutils (required ^2.0.0)
+[2023-08-25 15:49:31.196] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:49:31.196] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:49:32.576] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:49:32.576] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:49:51.383] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:49:51.383] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:50:01.519] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:50:01.519] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:50:05.780] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:50:05.781] [error] LSP.WidgetAdapter.EditorAdapter: TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 15:51:18.456] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:51:18.456] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:51:18.457] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:51:18.457] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:52:39.716] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:52:39.716] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:52:39.717] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:52:39.717] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:52:41.772] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:52:41.772] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:53:10.648] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-25 15:53:13.725] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 15:53:42.059] [warn]  Cannot execute key binding 'Ctrl Shift I': command 'debugger:debug-notebook' is not registered.
+[2023-08-25 15:53:46.873] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:53:46.873] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:54:23.836] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:54:23.837] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:54:23.837] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:54:23.837] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:54:47.707] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:54:47.707] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:56:16.589] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:56:16.589] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:56:16.589] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:56:16.590] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:56:16.590] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:56:16.590] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 15:56:18.466] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 15:56:18.466] [error] LSP.WidgetAdapter.EditorAdapter: TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 15:56:28.780] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 15:58:44.294] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'editor')
+[2023-08-25 15:58:52.075] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'editor')
+[2023-08-25 15:59:10.223] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'editor')
+[2023-08-25 15:59:18.270] [warn]  LSP.WidgetAdapter.LSP Diagnostics: Could not place inspections from file:///home/veer/Documents/madewithml/.virtual_documents/notebooks/madewithml.ipynb  inspections:  [object Object] error:  TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 15:59:45.730] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'editor')
+[2023-08-25 15:59:48.080] [warn]  LSP.WidgetAdapter.LSP Diagnostics: Could not place inspections from file:///home/veer/Documents/madewithml/.virtual_documents/notebooks/madewithml.ipynb  inspections:  [object Object] error:  TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 16:00:12.279] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 16:00:12.280] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 16:00:12.280] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 16:00:12.280] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 16:00:15.135] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'editor')
+[2023-08-25 16:00:32.766] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 16:00:32.766] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 16:00:32.766] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 16:00:32.767] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 16:02:31.924] [warn]  LSP.WidgetAdapter.LSP Diagnostics: Could not place inspections from file:///home/veer/Documents/madewithml/.virtual_documents/notebooks/madewithml.ipynb  inspections:  [object Object] error:  TypeError: Cannot read properties of null (reading 'line')
+[2023-08-25 16:04:28.491] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'editor')
+[2023-08-25 16:06:29.249] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'editor')
+[2023-08-25 16:06:41.532] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 16:06:41.532] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 16:06:41.532] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 16:06:41.533] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 16:06:43.584] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'editor')
+[2023-08-25 16:06:47.545] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 16:06:47.545] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 16:06:47.545] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 16:06:47.546] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 16:06:49.848] [error] Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'editor')
+[2023-08-25 16:06:54.096] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 16:06:54.096] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 16:06:54.096] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 16:06:54.096] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 16:07:31.674] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 16:07:31.674] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 16:07:38.923] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 16:07:38.923] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 16:07:38.923] [warn]  LSP.WidgetAdapter: Editor not found in editor_to_source_line map
+[2023-08-25 16:07:38.923] [warn]  LSP.WidgetAdapter.LSP Highlights: no root position available
+[2023-08-25 16:13:51.728] [error] Uncaught TypeError: Cannot read properties of undefined (reading 'getBoundingClientRect')
+[2023-08-25 16:13:51.737] [error] Uncaught TypeError: Cannot read properties of undefined (reading 'getBoundingClientRect')
+[2023-08-25 16:13:51.745] [error] Uncaught TypeError: Cannot read properties of undefined (reading 'getBoundingClientRect')
+[2023-08-25 16:13:51.753] [error] Uncaught TypeError: Cannot read properties of undefined (reading 'getBoundingClientRect')
+[2023-08-25 16:13:51.761] [error] Uncaught TypeError: Cannot read properties of undefined (reading 'getBoundingClientRect')
+[2023-08-25 16:13:51.769] [error] Uncaught TypeError: Cannot read properties of undefined (reading 'getBoundingClientRect')
+[2023-08-25 16:18:05.590] [error] Uncaught TypeError: Cannot read properties of undefined (reading 'getBoundingClientRect')
+[2023-08-25 16:18:05.599] [error] Uncaught TypeError: Cannot read properties of undefined (reading 'getBoundingClientRect')
+[2023-08-25 16:18:05.602] [error] Uncaught TypeError: Cannot read properties of undefined (reading 'getBoundingClientRect')
+[2023-08-25 16:18:05.609] [error] Uncaught TypeError: Cannot read properties of undefined (reading 'getBoundingClientRect')
+[2023-08-25 16:18:05.616] [error] Uncaught TypeError: Cannot read properties of undefined (reading 'getBoundingClientRect')
+[2023-08-25 16:18:56.832] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 16:18:57.016] [warn]  Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+[2023-08-25 16:19:38.774] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-25 16:19:38.777] [error] (node:155722) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 16:19:38.778] [error] (node:155722) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 16:20:12.272] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-08-25 16:20:12.274] [error] (node:156074) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-25 16:20:12.274] [error] (node:156074) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-25 16:20:25.360] [warn]  Unsatisfied version 1.37.2 from @jupyterlab/application-top of shared singleton module @lumino/widgets (required ^2.0.1)
+[2023-08-25 16:20:25.361] [warn]  Unsatisfied version 1.10.3 from @jupyterlab/application-top of shared singleton module @lumino/messaging (required ^2.0.0)
+[2023-08-25 16:20:25.361] [warn]  Unsatisfied version 1.12.1 from @jupyterlab/application-top of shared singleton module @lumino/coreutils (required ^2.0.0)
+[2023-08-25 16:20:25.362] [warn]  Unsatisfied version 1.11.1 from @jupyterlab/application-top of shared singleton module @lumino/signaling (required ^2.0.0)
+[2023-08-25 16:20:25.362] [warn]  Unsatisfied version 1.9.2 from @jupyterlab/application-top of shared singleton module @lumino/algorithm (required ^2.0.0)
+[2023-08-25 16:20:25.362] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/settingregistry (required ^4.0.2)
+[2023-08-25 16:20:25.362] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/translation (required ^4.0.2)
+[2023-08-25 16:20:25.363] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/notebook (required ^4.0.2)
+[2023-08-25 16:20:25.363] [warn]  Unsatisfied version 1.8.2 from @jupyterlab/application-top of shared singleton module @lumino/properties (required ^2.0.0)
+[2023-08-25 16:20:25.363] [warn]  No satisfying version (^4.0.2) of shared module @jupyterlab/outputarea found in shared scope default.
+Available versions: 3.6.3 from @jupyterlab/application-top
+[2023-08-25 16:20:25.363] [warn]  Unsatisfied version 6.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/services (required ^7.0.2)
+[2023-08-25 16:20:25.363] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/rendermime (required ^4.0.2)
+[2023-08-25 16:20:25.364] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/mainmenu (required ^4.0.2)
+[2023-08-25 16:20:25.364] [warn]  Unsatisfied version 1.10.4 from @jupyterlab/application-top of shared singleton module @lumino/disposable (required ^2.0.0)
+[2023-08-25 16:20:25.364] [warn]  Unsatisfied version 3.6.3 from @jupyterlab/application-top of shared singleton module @jupyterlab/logconsole (required ^4.0.2)
+[2023-08-25 16:20:26.677] [warn]  Language pack 'en_IN' not installed!
+[2023-08-25 16:20:27.278] [warn]  LSP.SettingsSchemaManager: No config schema - skipping transformation for jedi-language-server
+[2023-08-25 16:20:28.930] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 16:20:28.933] [warn]  Failed to fetch ipywidgets through the "jupyter.widget.control" comm channel, fallback to fetching individual model state. Reason: Control comm was closed too early
+[2023-08-25 16:20:28.983] [error] Error: widget model not found
+[2023-08-28 14:30:36.273] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-28 14:30:36.277] [error] (node:81132) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-28 14:30:36.277] [error] (node:81132) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-28 14:30:50.191] [warn]  Language pack 'en_US' not installed!
+[2023-08-28 14:31:15.688] [warn]  Showing error: Error: Unreadable Notebook: /home/veer/Documents/test/nb.ipynb NotJSONError("Notebook does not appear to be JSON: ''")
+[2023-08-28 14:31:15.689] [error] Failed to initialize the context with 'notebook' for nb.ipynb Error: Unreadable Notebook: /home/veer/Documents/test/nb.ipynb NotJSONError("Notebook does not appear to be JSON: ''")
+[2023-08-28 14:32:49.481] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-28 14:32:49.483] [error] (node:81993) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-28 14:32:49.483] [error] (node:81993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-28 14:32:53.145] [warn]  Language pack 'en_US' not installed!
+[2023-08-28 14:33:03.995] [warn]  TypeError: Cannot read properties of undefined (reading 'widget')
+[2023-08-28 14:33:49.476] [error] Failed to update the table of contents. TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:33:56.916] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:34:22.400] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:34:22.590] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:34:29.517] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 14:34:29.521] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 14:34:56.478] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 14:34:56.483] [warn]  TypeError: Cannot read properties of undefined (reading 'widget')
+[2023-08-28 14:34:56.485] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:34:56.485] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:34:56.486] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:34:56.488] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:34:56.489] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:34:56.489] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:34:56.489] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:34:56.496] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:34:56.497] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:34:57.490] [error] Failed to update the table of contents. TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:35:00.411] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:35:00.414] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:35:01.414] [error] Failed to update the table of contents. TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:35:09.962] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:35:10.119] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:35:14.482] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 14:35:14.487] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 14:35:14.491] [error] Uncaught (in promise) Error: Canceled future for kernel_info_request message before replies were done
+[2023-08-28 14:35:32.254] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:35:32.522] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:35:32.988] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:35:33.160] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:35:33.164] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:35:34.164] [error] Failed to update the table of contents. TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:35:42.744] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:35:45.229] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:35:45.390] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:35:50.497] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 14:35:50.502] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 14:36:13.001] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:36:13.039] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:36:15.237] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:36:16.233] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:36:16.683] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:36:16.702] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:36:16.881] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:36:17.037] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:36:17.187] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:36:17.347] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:36:18.349] [error] Failed to update the table of contents. TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:36:26.416] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:36:26.547] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:36:29.503] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 14:36:29.507] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 14:39:50.445] [error] Error rendering buttons of the cell toolbar:  TypeError: Cannot read properties of null (reading 'insertWidget')
+[2023-08-28 14:40:32.932] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 14:40:32.937] [warn]  TypeError: Cannot read properties of undefined (reading 'widget')
+[2023-08-28 14:40:32.942] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:32.943] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:32.943] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:32.944] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:32.945] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:32.945] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:33.946] [error] Failed to update the table of contents. TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:35.998] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:36.943] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:40:36.944] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:40:37.944] [error] Failed to update the table of contents. TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:44.012] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:40:44.185] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:40:47.933] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 14:40:47.935] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 14:40:52.042] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 14:40:52.047] [warn]  TypeError: Cannot read properties of undefined (reading 'widget')
+[2023-08-28 14:40:52.049] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:52.050] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:52.050] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:52.050] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:52.051] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:53.052] [error] Failed to update the table of contents. TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:55.100] [error] TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:40:55.985] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:40:55.988] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:40:56.988] [error] Failed to update the table of contents. TypeError: Cannot read properties of undefined (reading 'isRunning')
+[2023-08-28 14:41:03.205] [error] TypeError: Cannot set properties of undefined (setting 'isRunning')
+[2023-08-28 14:41:07.045] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 14:41:07.047] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 15:19:04.266] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-28 15:19:04.277] [error] (node:98780) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-28 15:19:04.277] [error] (node:98780) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-28 15:19:09.623] [warn]  Language pack 'en_US' not installed!
+[2023-08-28 15:21:10.219] [warn]  Last saving performed Mon Aug 28 2023 15:15:27 GMT+0530 (India Standard Time) while the current file seems to have been saved Mon Aug 28 2023 15:20:31 GMT+0530 (India Standard Time)
+[2023-08-28 15:21:13.298] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 15:21:51.787] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-28 15:21:51.789] [error] (node:99623) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-28 15:21:51.789] [error] (node:99623) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-28 15:21:54.860] [warn]  Language pack 'en_US' not installed!
+[2023-08-28 15:22:13.312] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 15:22:28.999] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-28 15:22:29.000] [error] (node:100068) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-28 15:22:29.000] [error] (node:100068) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-28 15:22:31.753] [warn]  Language pack 'en_US' not installed!
+[2023-08-28 15:22:49.330] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 15:23:38.677] [error] Error rendering buttons of the cell toolbar:  TypeError: Cannot read properties of null (reading 'insertWidget')
+[2023-08-28 15:24:28.355] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 15:24:32.289] [warn]  Last saving performed Mon Aug 28 2023 15:21:12 GMT+0530 (India Standard Time) while the current file seems to have been saved Mon Aug 28 2023 15:23:23 GMT+0530 (India Standard Time)
+[2023-08-28 15:24:56.808] [warn]  Last saving performed Mon Aug 28 2023 15:21:12 GMT+0530 (India Standard Time) while the current file seems to have been saved Mon Aug 28 2023 15:23:23 GMT+0530 (India Standard Time)
+[2023-08-28 15:24:58.827] [warn]  Last saving performed Mon Aug 28 2023 15:21:12 GMT+0530 (India Standard Time) while the current file seems to have been saved Mon Aug 28 2023 15:23:23 GMT+0530 (India Standard Time)
+[2023-08-28 15:26:35.280] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-28 15:26:35.282] [error] (node:102445) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-28 15:26:35.282] [error] (node:102445) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-28 15:27:04.452] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-28 15:27:04.454] [error] (node:103803) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-28 15:27:04.454] [error] (node:103803) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-28 15:27:24.112] [warn]  Language pack 'en_US' not installed!
+[2023-08-28 15:27:30.051] [error] Error rendering buttons of the cell toolbar:  TypeError: Cannot read properties of null (reading 'insertWidget')
+[2023-08-28 15:29:06.486] [warn]  Connection lost, reconnecting in 0 seconds.
+[2023-08-28 15:29:06.491] [warn]  TypeError: Cannot read properties of undefined (reading 'widget')
+[2023-08-28 15:33:58.173] [error] Failed to create free server Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+[2023-08-28 15:33:58.174] [error] (node:106091) UnhandledPromiseRejectionWarning: Error: No default environment found!
+    at /opt/JupyterLab/resources/app.asar/build/out/main/registry.js:192:32
+(Use `jupyterlab-desktop --trace-warnings ...` to show where the warning was created)
+[2023-08-28 15:33:58.174] [error] (node:106091) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+[2023-08-28 15:33:59.710] [error] (node:106091) electron: Failed to load URL: http://127.0.0.1:8888/lab?token=9b8f98ec2c7c875ae8d7ecb5be67f14fa96b1854639f763f with error: ERR_CONNECTION_REFUSED

@@ -49,12 +49,26 @@
 		"usercss": "Dribbblish/user.css",
 		"schemes": "Dribbblish/color.ini",
 		"include": [
-			"https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Dribbblish/dribbblish.js"
+			"https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Dribbblish/theme.js"
 		],
 		"authors": [
 			{
 				"name": "khanhas",
 				"url": "https://github.com/khanhas"
+			}
+		]
+	},
+	{
+		"name": "Matte",
+		"description": "Has a neat color pallete and a much cleaner interface",
+		"preview": "Matte/screenshots/queue.png",
+		"readme": "Matte/README.md",
+		"usercss": "Matte/user.css",
+		"schemes": "Matte/color.ini",
+		"authors": [
+			{
+				"name": "darkthemer",
+				"url": "https://github.com/darkthemer"
 			}
 		]
 	},
@@ -94,7 +108,7 @@
 		"usercss": "Turntable/user.css",
 		"schemes": "Turntable/color.ini",
 		"include": [
-			"https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Turntable/turntable.js"
+			"https://raw.githubusercontent.com/spicetify/spicetify-themes/master/Turntable/theme.js"
 		],
 		"authors": [
 			{

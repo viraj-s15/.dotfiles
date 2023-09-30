@@ -1,0 +1,101 @@
+{
+  "systemPythonPath": "/usr/bin/python",
+  "sessions": [],
+  "recentSessions": [
+    {
+      "remoteURL": "http://127.0.0.1:8888/lab?token=9b8f98ec2c7c875ae8d7ecb5be67f14fa96b1854639f763f",
+      "persistSessionData": true,
+      "partition": "persist:1693216642510",
+      "date": "2023-08-28T10:03:59.678Z"
+    },
+    {
+      "remoteURL": "http://localhost:8888/lab?token=e523f6f8769a2be7e1aaed0cade259e46be8816225582043",
+      "persistSessionData": true,
+      "partition": "persist:1693213248509",
+      "date": "2023-08-28T09:56:36.528Z"
+    },
+    {
+      "remoteURL": "http://localhost:8889/lab?token=c4c1899b4383c3a09a0a8a8d33f384cfeabf8a435a450209",
+      "persistSessionData": true,
+      "partition": "persist:1692942931263",
+      "date": "2023-08-25T10:50:25.060Z"
+    },
+    {
+      "remoteURL": "http://localhost:8888/lab?token=e465d0729790cc3e773a5ddb89fbcdab938d1c3df5c797e4",
+      "persistSessionData": true,
+      "partition": "persist:1692950180339",
+      "date": "2023-08-25T10:49:40.470Z"
+    },
+    {
+      "remoteURL": "http://localhost:8888/lab?token=b9a267b41dd880285815f4b6b92808d0de344df9699fe75e",
+      "persistSessionData": false,
+      "date": "2023-08-25T07:55:57.431Z"
+    }
+  ],
+  "recentRemoteURLs": [
+    {
+      "url": "http://127.0.0.1:8888/lab?token=9b8f98ec2c7c875ae8d7ecb5be67f14fa96b1854639f763f",
+      "date": "2023-08-28T10:03:59.677Z"
+    },
+    {
+      "url": "http://localhost:8888/lab?token=e523f6f8769a2be7e1aaed0cade259e46be8816225582043",
+      "date": "2023-08-28T09:56:36.528Z"
+    },
+    {
+      "url": "http://localhost:8889/lab?token=c4c1899b4383c3a09a0a8a8d33f384cfeabf8a435a450209",
+      "date": "2023-08-25T10:50:25.059Z"
+    },
+    {
+      "url": "http://localhost:8888/lab?token=e465d0729790cc3e773a5ddb89fbcdab938d1c3df5c797e4",
+      "date": "2023-08-25T10:49:40.470Z"
+    },
+    {
+      "url": "http://localhost:8888/lab?token=b9a267b41dd880285815f4b6b92808d0de344df9699fe75e",
+      "date": "2023-08-25T07:55:57.431Z"
+    }
+  ],
+  "discoveredPythonEnvs": [],
+  "userSetPythonEnvs": [],
+  "newsList": [
+    {
+      "title": "Desktop GIS software in the cloud with JupyterHub",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fdesktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "Generative AI in Jupyter",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fgenerative-ai-in-jupyter-3f7174824862%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "European Commission Funds Jupyter Bug Bounty Program",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Feuropean-commission-funds-jupyter-bug-bounty-program-b7b96f9831e6%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "Announcing Jupyter Notebook 7",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fannouncing-jupyter-notebook-7-8d6d66126dcf%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": " JupyterCon 2023 recordings now live on YouTube! ",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fjupytercon-2023-recordings-now-live-on-youtube-17564b75a2a%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "anywidget: Jupyter Widgets Made Easy",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fanywidget-jupyter-widgets-made-easy-164eb2eae102%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "A theme editor for JupyterLab",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fa-theme-editor-for-jupyterlab-8f08ab62894d%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "From intern to mentor",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Ffrom-intern-to-mentor-6055df406999%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "JupyterLab 4.0 is Here",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fjupyterlab-4-0-is-here-388d05e03442%3Fsource%3Drss----95916e268740---4"
+    },
+    {
+      "title": "Collaborative CAD in JupyterLab",
+      "link": "https%3A%2F%2Fblog.jupyter.org%2Fcollaborative-cad-in-jupyterlab-8eb9e8f81f0%3Fsource%3Drss----95916e268740---4"
+    }
+  ]
+}

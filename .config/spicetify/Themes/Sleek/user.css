@@ -122,7 +122,9 @@ NAVBAR
 
 .main-navBar-navBarLinkActive,
 .main-navBar-navBarLinkActive:focus,
-.main-navBar-navBarLinkActive:hover {
+.main-navBar-navBarLinkActive:hover,
+.main-collectionLinkButton-selected,
+.main-collectionLinkButton-selected svg {
   color: var(--spice-nav-active-text) !important;
 }
 
@@ -258,6 +260,11 @@ BUDDY FEED
 p.main-buddyFeed-timestamp.main-type-finale,
 .main-buddyFeed-findFriendsButton .main-buddyFeed-findFriendsIcon {
   color: var(--spice-subtext);
+}
+
+.spotify__os--is-windows .nav-ylx .main-buddyFeed-header {
+	padding-left: 0;
+    padding-right: 5px;
 }
 
 /* add gradient */

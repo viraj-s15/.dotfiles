@@ -1,0 +1,9 @@
+{
+  "checkForUpdatesAutomatically": false,
+  "installUpdatesAutomatically": false,
+  "theme": "dark",
+  "pythonPath": "/home/veer/.config/jupyterlab-desktop/jlab_server/bin/python",
+  "serverArgs": "HSA_OVERRIDE_GFX_VERSION=10.3.0",
+  "overrideDefaultServerArgs": true,
+  "serverEnvVars": {}
+}
