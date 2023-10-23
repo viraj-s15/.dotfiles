@@ -9,6 +9,8 @@ Contains all the config files for my arch rice.
 
 ![image](https://github.com/viraj-s15/.dotfiles/assets/79002760/fc3a03b6-62fc-4a7f-8c7c-78ee286afba0)
 
+![image](https://github.com/viraj-s15/.dotfiles/assets/79002760/034c4465-ed13-4bf7-98c2-5809fc1ee2c0)
+
 ## About <a name = "about"></a>
 Applications used:
 - Waybar
