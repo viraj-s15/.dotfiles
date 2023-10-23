@@ -34,4 +34,4 @@ git clone https://github.com/viraj-s15/.dotfiles.git
 ```
 
 After the repo has been cloned you can copy the files with
-whatever way you prefer.
+whatever you prefer.
