@@ -126,3 +126,28 @@ formatters.setup {
     filetypes = { "typescript", "typescriptreact" },
   },
 }
+
+-- Create a new split window at the top
+vim.cmd('split')
+
+-- Set its height to a single line
+vim.cmd('resize 1')
+
+-- Enter command-line mode in the new window
+vim.cmd('wincmd w')
+
+-- Close the preview window
+vim.cmd('q')
+
+-- Set cmdheight to zero to hide the original command-line at the bottom
+vim.o.cmdheight = 0
+
+
+
+-- Neovide stuff
+
+
+
+if vim.g.neovide then
+  vim.g.neovide_refresh_rate = 144
+end
