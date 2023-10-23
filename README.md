@@ -17,10 +17,12 @@ Applications used:
 - Picom
 - Swww
 - Zsh
-- Hyprland
+- Hyprland - modified hyprdots config (for rofi mainly)
 - Arch Linux
-- Neovim
+- Neovim - theme oxonvim,
+- LunarVim
 - Kitty
+- Zsh (I do not update the bashrc anymore)
   
 All the files are symlinked copies of the actual config files.
 If the configuration of your system matches mine you can simply clone the repo and copy the files over to your home directory.
