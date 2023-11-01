@@ -109,7 +109,7 @@ lvim.builtin.which_key.mappings["t"] = {
 }
 lvim.format_on_save.enabled = true
 
-
+require 'nvim-tree'.setup {}
 
 
 -- LSP/FORMATTERS
