@@ -1,6 +1,13 @@
 -- PLUGINS
 lvim.plugins = {
   {
+    'nvim-telescope/telescope.nvim',
+    version = '0.1.4',
+    -- or                              , branch = '0.1.x',
+    dependencies = { 'nvim-lua/plenary.nvim' }
+  },
+
+  {
     'marko-cerovac/material.nvim',
     name = "material",
     config = function()
@@ -107,11 +114,31 @@ lvim.builtin.which_key.mappings["t"] = {
   v = { "<cmd>2ToggleTerm size=30 direction=vertical<cr>", "Split vertical" },
   h = { "<cmd>2ToggleTerm size=30 direction=horizontal<cr>", "Split horizontal" },
 }
+
+
+lvim.builtin.which_key.mappings["f"] = {
+  name = "+Live Grep",
+  g = { "<cmd>Telescope live_grep<cr>", "live grep" },
+  f = { "<cmd>Telescope find_files<cr>", "Find Files" },
+  h = { "<cmd>Telescope buffers<cr>", "Buffers" },
+}
+
+
 lvim.format_on_save.enabled = true
 
-require 'nvim-tree'.setup {}
+local actions = require("telescope.actions")
 
+require("telescope").setup({
+  defaults = {
+    mappings = {
+      i = {
+        ["<esc>"] = actions.close,
+      },
+    },
+  },
+})
 
+vim.g.nvim_tree_hide_dotfiles = 1
 -- LSP/FORMATTERS
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
