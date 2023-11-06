@@ -18,6 +18,24 @@ ZSH=/usr/share/oh-my-zsh/
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="powerlevel10k"
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+PATH=$HOME/.cabal/bin:$PATH
+export PATH=/home/veer/.local/bin:$PATH
+export PATH="$HOME/.local/share/nvim/mason/bin/:$PATH"
+
+
+export PATH=$PATH:/opt/rocm/bin
+#Display gif
+# kitten icat --align left ~/.config/neofetch/pochita.gif
+export PATH=$PATH:/home/veer/.spicetify
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+
 # PATH=$PATH:~/opt/rocm/bin/
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -109,12 +127,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+# alias vim='neovide-lunarvim .'
 alias docs="cd Documents"
 alias down="cd Downloads"
 alias cpp="cd Documents/'Main Cpp'"
 alias c1="cd Documents/'Main C'"
-
+alias vim="lvim"
 alias lz='lazygit'
 alias hdd='cd "/run/media/veer/TOSHIBA EXT"'
 # ls
@@ -124,14 +142,16 @@ alias la='ls -a'
 alias lm='ls -m'
 alias lr='ls -R'
 alias lg='ls -l --group-directories-first'
-alias vim='nvim'
-# git
+# alias vim='lvim'
+alias pipi='pip install --no-cache-dir'
+alias jb='jupyter lab'
+#git
 alias batstat='upower -i /org/freedesktop/UPower/devices/battery_BAT0'
 # pacman 
 #pacman unlock
 alias unlock='sudo rm /var/lib/pacman/db.lck'
 alias gpgme="sudo rm -R /var/lib/pacman/sync"
-
+alias hdd="cd /run/media/veer/613A1DEC519A152F"
 #available free memory
 alias free='free -mt'
 
@@ -144,6 +164,9 @@ alias df='df -h'
 #userlist
 alias userlist='cut -d: -f1 /etc/passwd'
 
+alias pipijb='pip install notebook nbclassic jupyter-console'
+alias julsp='pip install -U jedi-language-server'
+alias mirrors="sudo reflector --verbose --country 'India' -l 15 --sort rate --save /etc/pacman.d/mirrorlist"
 #Pacman for software managment
 alias upall='topgrade'
 alias search='pacman -Qs'
@@ -154,7 +177,7 @@ alias update='sudo pacman -Syu'
 alias clrcache='sudo pacman -Scc'
 alias orphans='sudo pacman -Rns $(pacman -Qtdq)'
 alias akring='sudo pacman -Sy archlinux-keyring --noconfirm'
-
+alias packerror='grep -i installed /var/log/pacman.log | grep "warning"'
 
 alias jb='HSA_OVERRIDE_GFX_VERSION=10.3.0 jupyter lab --no-browser'
 
@@ -162,8 +185,7 @@ alias python='HSA_OVERRIDE_GFX_VERSION=10.3.0 python'
 alias python3='HSA_OVERRIDE_GFX_VERSION=10.3.0 python3'
 
 
-alias nvid='neovide .'
-
+alias v='neovide --neovim-bin "/home/veer/.local/bin/lvim" .'
 # Paru/Yay stuff
 alias pget='paru -S '
 alias yget='yay -S '
@@ -204,19 +226,9 @@ alias lapps='cd ~/.local/share/applications'
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 #Display specs
 #neofetch
 
 #Display Pokemon
 pokemon-colorscripts --no-title -r 1,3,6
 
-export PATH=$PATH:/opt/rocm/bin
-#Display gif
-#kitten icat --align left ~/.config/neofetch/pochita.gif
-export PATH=$PATH:/home/veer/.spicetify
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
