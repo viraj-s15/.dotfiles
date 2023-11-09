@@ -1,42 +1,44 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+# if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+#   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+# fi
 
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Path to your oh-my-zsh installation.
-#export ZSH="$HOME/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 ZSH=/usr/share/oh-my-zsh/
 
+ZSH_THEME="half-life"
+# ZSH_THEME="intheloop"
+# ZSH_THEME="itchy"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-#ZSH_THEME="powerlevel10k"
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+# ZSH_THEME="powerlevel10k"
+# source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 PATH=$HOME/.cabal/bin:$PATH
 export PATH=/home/veer/.local/bin:$PATH
 export PATH="$HOME/.local/share/nvim/mason/bin/:$PATH"
-
+# export PATH = "$HOME/zellij"
 
 export PATH=$PATH:/opt/rocm/bin
 #Display gif
 # kitten icat --align left ~/.config/neofetch/pochita.gif
 export PATH=$PATH:/home/veer/.spicetify
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+# export NVM_DIR="$HOME/.nvm"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 
-# PATH=$PATH:~/opt/rocm/bin/
+PATH=$PATH:~/opt/rocm/bin/
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -97,7 +99,7 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 source $ZSH/oh-my-zsh.sh
@@ -132,7 +134,7 @@ alias docs="cd Documents"
 alias down="cd Downloads"
 alias cpp="cd Documents/'Main Cpp'"
 alias c1="cd Documents/'Main C'"
-alias vim="lvim"
+alias v="lvim"
 alias lz='lazygit'
 alias hdd='cd "/run/media/veer/TOSHIBA EXT"'
 # ls
@@ -185,7 +187,7 @@ alias python='HSA_OVERRIDE_GFX_VERSION=10.3.0 python'
 alias python3='HSA_OVERRIDE_GFX_VERSION=10.3.0 python3'
 
 
-alias v='neovide --neovim-bin "/home/veer/.local/bin/lvim" .'
+# alias v='neovide --neovim-bin "/home/veer/.local/bin/lvim" .'
 # Paru/Yay stuff
 alias pget='paru -S '
 alias yget='yay -S '
@@ -230,5 +232,15 @@ alias lapps='cd ~/.local/share/applications'
 #neofetch
 
 #Display Pokemon
-pokemon-colorscripts --no-title -r 1,3,6
+# pokemon-colorscripts --no-title -r 1,3,6
 
+
+# The next line updates PATH for the Google Cloud SDK.
+# if [ -f '/home/veer/google-cloud-sdk/path.zsh.inc' ]; then . '/home/veer/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+# if [ -f '/home/veer/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/veer/google-cloud-sdk/completion.zsh.inc'; fi
+POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
