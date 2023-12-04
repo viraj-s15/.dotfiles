@@ -6,6 +6,15 @@ lvim.plugins = {
     -- or                              , branch = '0.1.x',
     dependencies = { 'nvim-lua/plenary.nvim' }
   },
+  {
+    "tiagovla/tokyodark.nvim",
+    opts = {
+        -- custom options here
+    },
+    config = function(_, opts)
+        require("tokyodark").setup(opts) -- calling setup is optional
+    end,
+},
 
   {
     'marko-cerovac/material.nvim',
@@ -90,7 +99,20 @@ lvim.plugins = {
   {
     "folke/tokyonight.nvim",
   },
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 }
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  { 'rose-pine/neovim', name = 'rose-pine' },
+  {
+  'projekt0n/github-nvim-theme',
+  lazy = false, -- make sure we load this during startup if it is your main colorscheme
+  priority = 1000, -- make sure to load this before all the other start plugins
+  config = function()
+    require('github-theme').setup({
+      -- ...
+    })
+
+    vim.cmd('colorscheme github_dark')
+  end,
+}
 }
 
 require("catppuccin").setup({
@@ -99,9 +121,9 @@ require("catppuccin").setup({
     light = "latte",
     dark = "mocha",
   },
-  transparent_background = true, -- disables setting the background color.
+  transparent_background = false, -- disables setting the background color.
   show_end_of_buffer = false,    -- shows the '~' characters after the end of buffers
-  term_colors = false,           -- sets terminal colors (e.g. `g:terminal_color_0`)
+  term_colors = true,           -- sets terminal colors (e.g. `g:terminal_color_0`)
   dim_inactive = {
     enabled = false,             -- dims the background color of inactive window
     shade = "dark",
@@ -114,18 +136,18 @@ require("catppuccin").setup({
     functions = { "bold", "italic" },
     keywords = { "bold" },
     strings = {},
-    variables = {},
+    variables = {"italic"},
     numbers = {},
     booleans = { "bold" },
-    properties = {},
+    properties = {"underline"},
     types = { "italic" },
     operators = {},
   },
-  color_overrides = {
-    all = {
-      base = '#11111b',
-    },
-  },
+  -- color_overrides = {
+  --   all = {
+  --     base = '#11111b',
+  --   },
+  -- },
   custom_highlights = {},
   integrations = {
     cmp = true,
@@ -137,6 +159,24 @@ require("catppuccin").setup({
       enabled = true,
       indentscope_color = "",
     },
+    native_lsp = {
+					enabled = true,
+					virtual_text = {
+						errors = { 'italic' },
+						hints = { 'italic' },
+						warnings = { 'italic' },
+						information = { 'italic' },
+					},
+					underlines = {
+						errors = { 'undercurl' },
+						hints = { 'undercurl' },
+						warnings = { 'undercurl' },
+						information = { 'undercurl' },
+					},
+					inlay_hints = {
+						background = true,
+					},
+				},
     -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
   },
 })
@@ -156,7 +196,7 @@ require("tokyonight").setup({
     functions = {bold = true, italic=true},
     variables = {italic=true},
     -- Background styles. Can be "dark", "transparent" or "normal"
-    sidebars = "dark", -- style for sidebars, see below
+    sidebars = "transparent", -- style for sidebars, see below
     floats = "dark", -- style for floating windows
   },
   sidebars = { "qf", "help" }, -- Set a darker background on sidebar-like windows. For example: `["qf", "vista_kind", "terminal", "packer"]`
@@ -207,8 +247,12 @@ on_highlights = function(hl, c)
 })
 
 -- COLORSCHEME
--- lvim.colorscheme = "catppuccin-mocha"
-lvim.colorscheme = "tokyonight"
+lvim.colorscheme = "catppuccin-mocha"
+-- lvim.colorscheme = "tokyodark"
+-- lvim.colorscheme = "oxocarbon"
+-- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+-- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+-- vim.opt.background = "dark" 
 -- lvim.colorscheme = "oxocarbon"
 vim.api.nvim_set_option("clipboard", "unnamed")
 -- vim.g.material_style = "darker"
@@ -253,7 +297,7 @@ require("telescope").setup({
   },
 })
 
-vim.g.nvim_tree_hide_dotfiles = 1
+vim.g.nvim_tree_hide_dotfiles = 0
 -- LSP/FORMATTERS
 local formatters = require "lvim.lsp.null-ls.formatters"
 formatters.setup {
@@ -287,8 +331,6 @@ vim.o.cmdheight = 0
 
 
 -- Neovide stuff
-
-
 
 if vim.g.neovide then
   vim.g.neovide_refresh_rate = 144
