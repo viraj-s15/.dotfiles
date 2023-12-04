@@ -1,9 +1,9 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+# if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+#   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+# fi
 
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -12,14 +12,17 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH=/usr/share/oh-my-zsh/
 
 # ZSH_THEME="half-life"
-# ZSH_THEME="intheloop"
-# ZSH_THEME="itchy"
+# ZSH_THEME="fino-time"
+# ZSH_THEME="spaceship"
+# ZSH_THEME="minimal"
+# ZSH_THEME="hyperzsh"
+ # ZSH_THEME="intheloop"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # ZSH_THEME="powerlevel10k"
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+# source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 PATH=$HOME/.cabal/bin:$PATH
 export PATH=/home/veer/.local/bin:$PATH
 export PATH="$HOME/.local/share/nvim/mason/bin/:$PATH"
@@ -36,7 +39,7 @@ export PATH=$PATH:/home/veer/.spicetify
 
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
-
+export PIP_DEFAULT_TIMEOUT=100
 PATH=$PATH:~/opt/rocm/bin/
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -157,6 +160,8 @@ alias hdd="cd /run/media/veer/613A1DEC519A152F"
 #available free memory
 alias free='free -mt'
 
+alias kubectl='minikube kubectl --'
+
 #continue download
 alias wget='wget -c'
 
@@ -243,6 +248,15 @@ alias lapps='cd ~/.local/share/applications'
 POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 [ -f ~/.inshellisense/key-bindings.zsh ] && source ~/.inshellisense/key-bindings.zsh
+
+# bun completions
+[ -s "/home/veer/.bun/_bun" ] && source "/home/veer/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+eval "$(starship init zsh)"
