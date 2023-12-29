@@ -35,3 +35,41 @@ git clone https://github.com/viraj-s15/.dotfiles.git
 
 After the repo has been cloned you can copy the files with
 whatever you prefer.
+
+Packages installed
+```
+altus-appimage 
+bauh
+bfg 
+bluemail 
+clblast-git
+debtap
+discord_arch_electron
+docker-compose-v2-git 
+electron27-bin 
+figma-linux-bin 
+gitkraken 
+grimblast-git
+hyprland-git 
+hyprpicker-git
+libhelium 
+mercury-browser-bin 
+minikube-git 
+nwg-look 
+oh-my-zsh-git
+podman-desktop-bin 
+pokemon-colorscripts-git 
+python-pyamdgpuinfo 
+spicetify-cli 
+spotify 
+spotify-adblock-git
+swaylock-effects-git
+swww
+twingate
+vencord-desktop-bin
+visual-studio-code-bin
+vivaldi-snapshot 
+webapp-manager-git
+xwaylandvideobridge-bin
+zsh-theme-powerlevel10k-git
+```
