@@ -41,7 +41,7 @@ Packages installed
 altus-appimage 
 bauh
 bfg 
-bluemail 
+mailspring 
 clblast-git
 debtap
 discord_arch_electron
