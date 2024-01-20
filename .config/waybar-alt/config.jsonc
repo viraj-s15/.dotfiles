@@ -2,7 +2,7 @@
   "layer": "top",
   "position": "top",
   "height": 0,
-  "modules-left": ["clock", "cpu","memory","wlr/workspaces"],
+  "modules-left": ["clock", "cpu", "memory", "hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
   "modules-right": [
     "tray",
@@ -85,7 +85,7 @@
     "format-ethernet": " {essid}",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "睊 Disconnected",
-    "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}",
+    "tooltip-format-wifi": "Signal Strenght: {signalStrength}% | Down Speed: {bandwidthDownBits}, Up Speed: {bandwidthUpBits}"
   },
   "pulseaudio": {
     "format": "{icon} {volume}%",
@@ -110,24 +110,23 @@
     "tooltip": true
   },
   "custom/wallchange": {
-        "format": "{}",
-        "exec": "echo ; echo 󰆊 switch wallpaper",
-        "on-click": "~/.config/swww/swwwallpaper.sh -n 2",
-        "on-click-right": "~/.config/swww/swwwallpaper.sh -p 2",
-        "interval" : 86400, // once every day
-        "tooltip": true
-    },
-    "cpu": {
-        "interval": 10,
-        "format": "CPU {usage}%",
-        "format-alt": "{icon0}{icon1}{icon2}{icon3}",
-        "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
-    },
-    "memory": {
-        "interval": 30,
-        "format": "RAM {used}GB",
-        "tooltip": true,
-        "tooltip-format": " {used:0.1f}GB/{total:0.1f}GB"
-    },
-   
+    "format": "{}",
+    "exec": "echo ; echo 󰆊 switch wallpaper",
+    "on-click": "~/.config/swww/swwwallpaper.sh -n 2",
+    "on-click-right": "~/.config/swww/swwwallpaper.sh -p 2",
+    "interval": 86400, // once every day
+    "tooltip": true
+  },
+  "cpu": {
+    "interval": 10,
+    "format": "CPU {usage}%",
+    "format-alt": "{icon0}{icon1}{icon2}{icon3}",
+    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"]
+  },
+  "memory": {
+    "interval": 30,
+    "format": "RAM {used}GB",
+    "tooltip": true,
+    "tooltip-format": " {used:0.1f}GB/{total:0.1f}GB"
+  }
 }
