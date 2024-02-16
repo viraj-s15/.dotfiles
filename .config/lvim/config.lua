@@ -1,54 +1,66 @@
 -- PLUGINS
 lvim.plugins = {
-{
-  "zbirenbaum/copilot.lua",
-  cmd = "Copilot",
-  event = "InsertEnter",
-  config = function()
-require('copilot').setup({
-  panel = {
-    enabled = true,
-    auto_refresh = true,
-    keymap = {
-      jump_prev = "[[",
-      jump_next = "]]",
-      accept = "<CR>",
-      refresh = "gr",
-      open = "<M-CR>"
-    },
-    layout = {
-      position = "bottom", -- | top | left | right
-      ratio = 0.4
-    },
+  { 'decaycs/decay.nvim',              name = 'decay' },
+  {
+    "baliestri/aura-theme",
+    lazy = false,
+    priority = 1000,
+    config = function(plugin)
+      vim.opt.rtp:append(plugin.dir .. "/packages/neovim")
+      vim.cmd([[colorscheme aura-dark]])
+    end
+  }
+  ,
+  {
+    "zbirenbaum/copilot.lua",
+    cmd = "Copilot",
+    event = "InsertEnter",
+    config = function()
+      require('copilot').setup({
+        panel = {
+          enabled = true,
+          auto_refresh = true,
+          keymap = {
+            jump_prev = "[[",
+            jump_next = "]]",
+            accept = "<CR>",
+            refresh = "gr",
+            open = "<M-CR>"
+          },
+          layout = {
+            position = "bottom", -- | top | left | right
+            ratio = 0.4
+          },
+        },
+        suggestion = {
+          enabled = true,
+          auto_trigger = true,
+          debounce = 75,
+          keymap = {
+            accept = "<M-l>",
+            accept_word = false,
+            accept_line = false,
+            next = "<M-]>",
+            prev = "<M-[>",
+            dismiss = "<C-]>",
+          },
+        },
+        filetypes = {
+          yaml = false,
+          markdown = false,
+          help = false,
+          gitcommit = false,
+          gitrebase = false,
+          hgcommit = false,
+          svn = false,
+          cvs = false,
+          ["."] = false,
+        },
+        copilot_node_command = 'node', -- Node.js version must be > 18.x
+        server_opts_overrides = {},
+      })
+    end,
   },
-  suggestion = {
-    enabled = true,
-    auto_trigger = true,
-    debounce = 75,
-    keymap = {
-      accept = "<M-l>",
-      accept_word = false,
-      accept_line = false,
-      next = "<M-]>",
-      prev = "<M-[>",
-      dismiss = "<C-]>",
-    },
-  },
-  filetypes = {
-    yaml = false,
-    markdown = false,
-    help = false,
-    gitcommit = false,
-    gitrebase = false,
-    hgcommit = false,
-    svn = false,
-    cvs = false,
-    ["."] = false,
-  },
-  copilot_node_command = 'node', -- Node.js version must be > 18.x
-  server_opts_overrides = {},
-})  end,
-},
   {
     'nvim-telescope/telescope.nvim',
     version = '0.1.4',
@@ -58,12 +70,12 @@ require('copilot').setup({
   {
     "tiagovla/tokyodark.nvim",
     opts = {
-        -- custom options here
+      -- custom options here
     },
     config = function(_, opts)
-        require("tokyodark").setup(opts) -- calling setup is optional
+      require("tokyodark").setup(opts) -- calling setup is optional
     end,
-},
+  },
 
   {
     'marko-cerovac/material.nvim',
@@ -112,15 +124,15 @@ require('copilot').setup({
 
         disable = {
           colored_cursor = true, -- Disable the colored cursor
-          borders = false,        -- Disable borders between verticaly split windows
-          background = false,     -- Prevent the theme from setting the background (NeoVim then uses your terminal background)
-          term_colors = false,    -- Prevent the theme from setting terminal colors
-          eob_lines = false       -- Hide the end-of-buffer lines
+          borders = false,       -- Disable borders between verticaly split windows
+          background = false,    -- Prevent the theme from setting the background (NeoVim then uses your terminal background)
+          term_colors = false,   -- Prevent the theme from setting terminal colors
+          eob_lines = false      -- Hide the end-of-buffer lines
         },
 
         high_visibility = {
           lighter = false, -- Enable higher contrast text for lighter style
-          darker = true -- Enable higher contrast text for darker style
+          darker = true    -- Enable higher contrast text for darker style
         },
 
         lualine_style = "default", -- Lualine style ( can be 'stealth' or 'default' )
@@ -148,20 +160,20 @@ require('copilot').setup({
   {
     "folke/tokyonight.nvim",
   },
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  { "catppuccin/nvim",  name = "catppuccin", priority = 1000 },
   { 'rose-pine/neovim', name = 'rose-pine' },
   {
-  'projekt0n/github-nvim-theme',
-  lazy = false, -- make sure we load this during startup if it is your main colorscheme
-  priority = 1000, -- make sure to load this before all the other start plugins
-  config = function()
-    require('github-theme').setup({
-      -- ...
-    })
+    'projekt0n/github-nvim-theme',
+    lazy = false,    -- make sure we load this during startup if it is your main colorscheme
+    priority = 1000, -- make sure to load this before all the other start plugins
+    config = function()
+      require('github-theme').setup({
+        -- ...
+      })
 
-    vim.cmd('colorscheme github_dark')
-  end,
-}
+      vim.cmd('colorscheme github_dark')
+    end,
+  }
 }
 
 require("catppuccin").setup({
@@ -171,24 +183,24 @@ require("catppuccin").setup({
     dark = "mocha",
   },
   transparent_background = false, -- disables setting the background color.
-  show_end_of_buffer = false,    -- shows the '~' characters after the end of buffers
-  term_colors = true,           -- sets terminal colors (e.g. `g:terminal_color_0`)
+  show_end_of_buffer = false,     -- shows the '~' characters after the end of buffers
+  term_colors = true,             -- sets terminal colors (e.g. `g:terminal_color_0`)
   dim_inactive = {
-    enabled = false,             -- dims the background color of inactive window
+    enabled = false,              -- dims the background color of inactive window
     shade = "dark",
-    percentage = 0.15,           -- percentage of the shade to apply to the inactive window
+    percentage = 0.15,            -- percentage of the shade to apply to the inactive window
   },
-  styles = {                     -- Handles the styles of general hi groups (see `:h highlight-args`):
-    comments = { "italic" },     -- Change the style of comments
+  styles = {                      -- Handles the styles of general hi groups (see `:h highlight-args`):
+    comments = { "italic" },      -- Change the style of comments
     conditionals = { "italic" },
     loops = { "bold" },
     functions = { "bold", "italic" },
     keywords = { "bold" },
     strings = {},
-    variables = {"italic"},
+    variables = { "italic" },
     numbers = {},
     booleans = { "bold" },
-    properties = {"underline"},
+    properties = { "underline" },
     types = { "italic" },
     operators = {},
   },
@@ -209,23 +221,23 @@ require("catppuccin").setup({
       indentscope_color = "",
     },
     native_lsp = {
-					enabled = true,
-					virtual_text = {
-						errors = { 'italic' },
-						hints = { 'italic' },
-						warnings = { 'italic' },
-						information = { 'italic' },
-					},
-					underlines = {
-						errors = { 'undercurl' },
-						hints = { 'undercurl' },
-						warnings = { 'undercurl' },
-						information = { 'undercurl' },
-					},
-					inlay_hints = {
-						background = true,
-					},
-				},
+      enabled = true,
+      virtual_text = {
+        errors = { 'italic' },
+        hints = { 'italic' },
+        warnings = { 'italic' },
+        information = { 'italic' },
+      },
+      underlines = {
+        errors = { 'undercurl' },
+        hints = { 'undercurl' },
+        warnings = { 'undercurl' },
+        information = { 'undercurl' },
+      },
+      inlay_hints = {
+        background = true,
+      },
+    },
     -- For more plugins integrations please scroll down (https://github.com/catppuccin/nvim#integrations)
   },
 })
@@ -233,26 +245,26 @@ require("catppuccin").setup({
 require("tokyonight").setup({
   -- your configuration comes here
   -- or leave it empty to use the default settings
-  style = "night", -- The theme comes in three styles, `storm`, `moon`, a darker variant `night` and `day`
-  light_style = "day", -- The theme is used when the background is set to light
-  transparent = false, -- Enable this to disable setting the background color
+  style = "night",        -- The theme comes in three styles, `storm`, `moon`, a darker variant `night` and `day`
+  light_style = "day",    -- The theme is used when the background is set to light
+  transparent = false,    -- Enable this to disable setting the background color
   terminal_colors = true, -- Configure the colors used when opening a `:terminal` in [Neovim](https://github.com/neovim/neovim)
   styles = {
     -- Style to be applied to different syntax groups
     -- Value is any valid attr-list value for `:help nvim_set_hl`
     comments = { italic = true },
-    keywords = {bold=true, italic = true },
-    functions = {bold = true, italic=true},
-    variables = {italic=true},
+    keywords = { bold = true, italic = true },
+    functions = { bold = true, italic = true },
+    variables = { italic = true },
     -- Background styles. Can be "dark", "transparent" or "normal"
-    sidebars = "transparent", -- style for sidebars, see below
-    floats = "dark", -- style for floating windows
+    sidebars = "transparent",       -- style for sidebars, see below
+    floats = "dark",                -- style for floating windows
   },
-  sidebars = { "qf", "help" }, -- Set a darker background on sidebar-like windows. For example: `["qf", "vista_kind", "terminal", "packer"]`
-  day_brightness = 0.3, -- Adjusts the brightness of the colors of the **Day** style. Number between 0 and 1, from dull to vibrant colors
+  sidebars = { "qf", "help" },      -- Set a darker background on sidebar-like windows. For example: `["qf", "vista_kind", "terminal", "packer"]`
+  day_brightness = 0.3,             -- Adjusts the brightness of the colors of the **Day** style. Number between 0 and 1, from dull to vibrant colors
   hide_inactive_statusline = false, -- Enabling this option, will hide inactive statuslines and replace them with a thin border instead. Should work with the standard **StatusLine** and **LuaLine**.
-  dim_inactive = false, -- dims inactive windows
-  lualine_bold = false, -- When `true`, section headers in the lualine theme will be bold
+  dim_inactive = false,             -- dims inactive windows
+  lualine_bold = false,             -- When `true`, section headers in the lualine theme will be bold
 
   --- You can override specific color groups to use other groups or a hex color
   --- function will be called with a ColorScheme table
@@ -263,7 +275,7 @@ require("tokyonight").setup({
   --- function will be called with a Highlights and ColorScheme table
   ---@param highlights Highlights
   ---@param colors ColorScheme
-on_highlights = function(hl, c)
+  on_highlights = function(hl, c)
     local prompt = "#2d3149"
     hl.TelescopeNormal = {
       bg = c.bg_dark,
@@ -297,14 +309,16 @@ on_highlights = function(hl, c)
 
 -- COLORSCHEME
 lvim.colorscheme = "catppuccin-mocha"
+-- lvim.colorscheme = "material"
+-- lvim.colorscheme = "dark-decay"
 -- lvim.colorscheme = "tokyonight"
 -- lvim.colorscheme = "oxocarbon"
 -- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 -- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
--- vim.opt.background = "dark" 
+-- vim.opt.background = "dark"
 -- lvim.colorscheme = "oxocarbon"
 vim.api.nvim_set_option("clipboard", "unnamed")
--- vim.g.material_style = "darker"
+vim.g.material_style = "darker"
 vim.g.neovide_scale_factor = 1.05
 vim.o.guifont = "JetBrains Mono Medium:h14" -- text below applies for VimScript
 -- vim.o.guifont = "DejaVu Sans Mono:h14" -- text below applies for VimScript
