@@ -41,17 +41,17 @@ Browser: Firefox
 
 Firefox configs so I dont forget
 
-general.smoothScroll.lines.durationMaxMS: 400
-general.smoothScroll.lines.durationMinMS: 200
-general.smoothScroll.mouseWheel.durationMaxMS: 400
-general.smoothScroll.mouseWheel.durationMinMS: 400
-general.smoothScroll.other.durationMaxMS: 400
-general.smoothScroll.other.durationMinMS: 200
-general.smoothScroll.pages.durationMaxMS: 400
-general.smoothScroll.pages.durationMinMS: 200
-mousewheel.acceleration.start: 0
-mousewheel.min_line_scroll_amount: 50
-toolkit.scrollbox.smoothScroll: false
+- general.smoothScroll.lines.durationMaxMS: 400
+- general.smoothScroll.lines.durationMinMS: 200
+- general.smoothScroll.mouseWheel.durationMaxMS: 400
+- general.smoothScroll.mouseWheel.durationMinMS: 400
+- general.smoothScroll.other.durationMaxMS: 400
+- general.smoothScroll.other.durationMinMS: 200
+- general.smoothScroll.pages.durationMaxMS: 400
+- general.smoothScroll.pages.durationMinMS: 200
+- mousewheel.acceleration.start: 0
+- mousewheel.min_line_scroll_amount: 50
+- toolkit.scrollbox.smoothScroll: false
 
 
 Packages installed
