@@ -37,7 +37,7 @@ After the repo has been cloned you can copy the files with
 whatever you prefer.
 
 Browser: Firefox 
-  - Theme: Cozy Cats - 1041uuu [animated]
+  - Theme: https://addons.mozilla.org/en-US/firefox/addon/seamless-rose/
 
 Firefox configs so I dont forget
 
