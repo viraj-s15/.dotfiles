@@ -376,6 +376,7 @@ formatters.setup {
   },
 }
 
+lvim.lsp.installer.setup.automatic_installation = true
 -- require("copilot").setup(options)
 
 -- Create a new split window at the top
@@ -400,4 +401,3 @@ vim.o.cmdheight = 0
 if vim.g.neovide then
   vim.g.neovide_refresh_rate = 144
 end
-
