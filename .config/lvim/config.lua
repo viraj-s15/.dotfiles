@@ -308,11 +308,11 @@ require("tokyonight").setup({
 })
 
 -- COLORSCHEME
-lvim.colorscheme = "catppuccin-mocha"
+-- lvim.colorscheme = "catppuccin-mocha"
 -- lvim.colorscheme = "material"
 -- lvim.colorscheme = "dark-decay"
 -- lvim.colorscheme = "tokyonight"
--- lvim.colorscheme = "oxocarbon"
+lvim.colorscheme = "oxocarbon"
 -- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
 -- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 -- vim.opt.background = "dark"
