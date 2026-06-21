@@ -1,6 +1,5 @@
 #!/usr/bin/env sh
 
-
 # define functions
 
 function print_error
@@ -37,7 +36,6 @@ function notify_mute
     fi
 }
 
-
 # set device source
 
 while getopts io SetSrc
@@ -56,7 +54,6 @@ if [ $OPTIND -eq 1 ] ; then
     print_error
 fi
 
-
 # set device action
 
 shift $((OPTIND -1))
@@ -65,12 +62,11 @@ icodir="~/.config/dunst/icons/vol"
 ncolor="-h string:bgcolor:#343d46 -h string:fgcolor:#c0c5ce -h string:frcolor:#c0c5ce"
 
 case $1 in
-    i) pamixer $srce -i ${step}
+    i) pamixer $srce --set-limit 150 --allow-boost -i ${step}
         notify_vol ;;
-    d) pamixer $srce -d ${step}
+    d) pamixer $srce --set-limit 150 --allow-boost -d ${step}
         notify_vol ;;
     m) pamixer $srce -t
         notify_mute ;;
     *) print_error ;;
 esac
-
