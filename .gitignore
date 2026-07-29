@@ -1,0 +1,20 @@
+# Python bytecode (ranger plugins/colorschemes)
+__pycache__/
+*.py[cod]
+
+# Caches and runtime state
+.cache/
+*.log
+
+# Credentials — never commit
+.config/gh/hosts.yml
+**/hosts.yml
+*.token
+*_token
+.netrc
+
+# Application-managed state, not configuration
+.config/spicetify/Backup/
+.config/spicetify/Extracted/
+.config/swww/.cache/
+settings_backup.json
