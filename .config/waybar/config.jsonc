@@ -26,11 +26,15 @@
   // IPC socket. hyprland/workspaces dispatches the legacy "workspace <id>"
   // syntax, which Hyprland rejects under a Lua config root, so clicking a
   // workspace did nothing. See Alexays/Waybar#5008.
+  // {id} here is the ext-protocol handle counter, not the Hyprland workspace
+  // number — it keeps incrementing as workspaces are destroyed and recreated,
+  // so workspace 3 eventually renders as "14". {name} is the real number, and
+  // sort-by-number orders by it instead of by creation order.
   "ext/workspaces": {
     "all-outputs": true,
     "on-click": "activate",
-    "sort-by-id": true,
-    "format": "{id}"
+    "sort-by-number": true,
+    "format": "{name}"
   },
   "custom/caffeine": {
     "exec": "~/.config/waybar/scripts/caffeine.sh",

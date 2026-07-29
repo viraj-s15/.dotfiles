@@ -75,6 +75,13 @@ root ([Alexays/Waybar#5008](https://github.com/Alexays/Waybar/issues/5008)).
 This config uses `ext/workspaces` instead, which activates workspaces through
 the `ext_workspace_manager_v1` Wayland protocol and is unaffected.
 
+One gotcha with that module: its `{id}` is the protocol handle counter, not the
+workspace number. Hyprland destroys a workspace as soon as its last window
+leaves, so cycling windows between workspaces churns through handles and the
+labels drift upwards — workspace 3 starts rendering as `14`. Use `{name}` for
+the real number, and `sort-by-number` so a recreated workspace keeps its place
+in the bar rather than jumping to the end.
+
 ## Installing
 
 ```
