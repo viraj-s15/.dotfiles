@@ -6,7 +6,7 @@
     "clock",
     "cpu",
     "memory",
-    "hyprland/workspaces"
+    "ext/workspaces"
   ],
   "modules-center": [
     "hyprland/window"
@@ -22,23 +22,15 @@
   "hyprland/window": {
     "format": "{}"
   },
-  "wlr/workspaces": {
-    "disable-scroll": true,
+  // Uses the ext_workspace_manager_v1 Wayland protocol rather than Hyprland's
+  // IPC socket. hyprland/workspaces dispatches the legacy "workspace <id>"
+  // syntax, which Hyprland rejects under a Lua config root, so clicking a
+  // workspace did nothing. See Alexays/Waybar#5008.
+  "ext/workspaces": {
     "all-outputs": true,
     "on-click": "activate",
-    //"format": "{icon}",
-    "persistent_workspaces": {
-      "1": [],
-      "2": [],
-      "3": [],
-      "4": [],
-      "5": [],
-      "6": [],
-      "7": [],
-      "8": [],
-      "9": [],
-      "10": []
-    }
+    "sort-by-id": true,
+    "format": "{id}"
   },
   "custom/caffeine": {
     "exec": "~/.config/waybar/scripts/caffeine.sh",
@@ -114,7 +106,7 @@
   "pulseaudio": {
     "format": "{icon} {volume}%",
     "format-muted": "ﱝ Muted",
-    "on-click": "/home/amitgold/.config/hypr/scripts/volume_ctl.sh mute",
+    "on-click": "/home/veer/.config/hypr/scripts/volume_ctl.sh mute",
     "scroll-step": 1,
     "format-icons": {
       "headphone": "",
