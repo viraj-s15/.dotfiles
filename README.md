@@ -91,9 +91,10 @@ Credentials are deliberately excluded. `.config/gh/config.yml` is tracked but
 ## Notes
 
 - **Zsh only.** The `.bashrc` here is the stock Arch stub and is not maintained.
-- Some configs are kept for machines that are not running Hyprland — `openbox`,
-  `polybar`, `picom`, `nitrogen`, `bspwm`. Picom in particular is redundant
-  under Wayland, since Hyprland is itself the compositor.
+- Only configs for tools actually in use are tracked. Configs for window
+  managers, bars and terminals that are no longer installed or used —
+  `awesome`, `bspwm`, `polybar`, `alacritty`, `tmux`, `fish`, `wezterm` and
+  others — have been removed; they remain in the git history if needed.
 - `.config/swww/` keeps its old directory name; the wallpaper daemon it drives
   is now `awww-daemon`.
 
