@@ -79,8 +79,18 @@ One gotcha with that module: its `{id}` is the protocol handle counter, not the
 workspace number. Hyprland destroys a workspace as soon as its last window
 leaves, so cycling windows between workspaces churns through handles and the
 labels drift upwards — workspace 3 starts rendering as `14`. Use `{name}` for
-the real number, and `sort-by-number` so a recreated workspace keeps its place
-in the bar rather than jumping to the end.
+the real number.
+
+Sorting has the same trap. `sort-by-number` is a deprecated alias for
+`sort-by-id`, which orders by that drifting handle, so a destroyed and
+recreated workspace jumps to the end of the bar. Sorting by name is the module
+default, but the comparator tests `sort_by_id_` first, so an explicit
+`sort-by-id` or `sort-by-number` key silently overrides it. Set
+`sort-by-name` and drop the others.
+
+One limit: the numeric comparison only kicks in when *every* workspace name is
+a digit string. Open a named or special workspace and the whole bar falls back
+to lexicographic ordering.
 
 ## Installing
 
